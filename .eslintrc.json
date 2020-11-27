@@ -1,22 +1,169 @@
 {
-  "parser": "@typescript-eslint/parser",
-  "extends": [
-    "plugin:@typescript-eslint/recommended",
-    "plugin:react/recommended",
-    "plugin:prettier/recommended",
-    "plugin:prettier/react",
-    "plugin:prettier/@typescript-eslint"
-  ],
-  "plugins": [
-    "@typescript-eslint",
-    "react",
-    "prettier"
-  ],
-  "rules": {
-    "react/react-in-jsx-scope": "off"
-  },
-  "globals": {
-    "React": "writable"
-  }
+    "env": {
+        "browser": true,
+        "es2021": true
+    },
+    "extends": [
+        "eslint:recommended",
+        "plugin:react/recommended",
+        "standard"
+    ],
+    "parserOptions": {
+        "ecmaFeatures": {
+            "jsx": true
+        },
+        "ecmaVersion": 12,
+        "sourceType": "module"
+    },
+    "plugins": [
+        "react"
+    ],
+    "rules": {
+        "valid-jsdoc": [
+          "error",
+          {
+            "requireReturn": false,
+            "requireParamDescription": true,
+            "requireReturnDescription": true,
+            "requireReturnType": true,
+            "matchDescription": ".{6,}"
+          }
+        ],
+        "require-jsdoc": [
+          "error",
+          {
+            "require": {
+              "FunctionDeclaration": false,
+              "MethodDefinition": false,
+              "ClassDeclaration": true
+            }
+          }
+        ],
+        "max-statements-per-line": [
+          "error",
+          {
+            "max": 1
+          }
+        ],
+        "eqeqeq": [
+          "error"
+        ],
+        "camelcase": [
+          "error",
+          {
+            "properties": "always"
+          }
+        ],
+        "no-sparse-arrays": "error",
+        "no-magic-numbers": [
+          "off",
+          {
+            "ignore": [],
+            "ignoreArrayIndexes": true,
+            "enforceConst": true,
+            "detectObjects": false
+          }
+        ],
+        "comma-dangle": [
+          "error",
+          "never"
+        ],
+        "comma-spacing": [
+          "error"
+        ],
+        "func-names": [
+          "warn"
+        ],
+        "no-func-assign": [
+          "error"
+        ],
+        "indent": [
+          "warn",
+          2
+        ],
+        "wrap-iife": [
+          "error"
+        ],
+        "quotes": [
+          "error",
+          "single",
+          {
+            "allowTemplateLiterals": true
+          }
+        ],
+        "semi": [
+          "error",
+          "always"
+        ],
+        "semi-spacing": [
+          "error",
+          {
+            "before": false,
+            "after": true
+          }
+        ],
+        "no-multi-spaces": "error",
+        "no-spaced-func": "error",
+        "no-whitespace-before-property": "error",
+        "space-before-blocks": "error",
+        "space-before-function-paren": [
+          "error",
+          {
+            "anonymous": "always",
+            "named": "never"
+          }
+        ],
+        "space-in-parens": [
+          "error",
+          "never"
+        ],
+        "space-infix-ops": [
+          "error",
+          {
+            "int32Hint": false
+          }
+        ],
+        "space-unary-ops": [
+          "error",
+          {
+            "words": true,
+            "nonwords": false
+          }
+        ],
+        "spaced-comment": [
+          "error",
+          "always",
+          {
+            "markers": [
+              "/"
+            ]
+          }
+        ],
+        "object-curly-spacing": [
+          "error",
+          "always"
+        ],
+        "array-bracket-spacing": [
+          "error",
+          "never"
+        ],
+        "no-use-before-define": [
+          "error",
+          {
+            "functions": true,
+            "classes": true,
+            "variables": true
+          }
+        ]
+      },
+      "settings": {
+        "import/resolver": {
+          "babel-module": {},
+          "node": {
+            "extensions": [
+              ".js"
+            ]
+          }
+        }
+      }
 }
-view raw
