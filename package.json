@@ -8,7 +8,8 @@
     "start": "next start",
     "lint": "eslint --ext .js,.jsx .",
     "lint-fix": "yarn lint --fix",
-    "pre-commit": "pretty-quick --staged && yarn lint"
+    "pre-commit": "pretty-quick --staged && yarn lint-fix",
+    "postinstall": "husky install"
   },
   "dependencies": {
     "airbnb": "^0.0.2",
@@ -32,7 +33,7 @@
     "eslint-plugin-promise": "^4.2.1",
     "eslint-plugin-react": "^7.21.5",
     "eslint-plugin-react-hooks": "^4.2.0",
-    "husky": "^4.3.0",
+    "husky": "^5.0.4",
     "prettier": "^2.2.0",
     "pretty-quick": "^3.1.0",
     "typescript": "^4.1.2"
