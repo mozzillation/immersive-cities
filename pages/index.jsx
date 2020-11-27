@@ -3,7 +3,9 @@ import Head from 'next/head';
 export default function Home() {
   return (
     <div>
-ciaone
+      <Head>
+        <title>IMMERSIVE CITIES</title>
+      </Head>
     </div>
   );
 }

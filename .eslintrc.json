@@ -5,9 +5,8 @@
     },
     "extends": [
         "eslint:recommended",
-        "plugin:react/recommended",
-        "standard"
-    ],
+        "plugin:react/recommended"
+      ],
     "parserOptions": {
         "ecmaFeatures": {
             "jsx": true
@@ -18,7 +17,13 @@
     "plugins": [
         "react"
     ],
+    "globals": {
+      "should": "readonly",
+      "expect": "readonly",
+      "assert": "readonly"
+    },
     "rules": {
+        "react/react-in-jsx-scope": "off",
         "valid-jsdoc": [
           "error",
           {
@@ -157,6 +162,9 @@
         ]
       },
       "settings": {
+        "react": {
+          "version": "detect"
+        },
         "import/resolver": {
           "babel-module": {},
           "node": {

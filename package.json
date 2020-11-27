@@ -6,7 +6,8 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "eslint --ext .js,.jsx . --fix",
+    "lint": "eslint --ext .js,.jsx .",
+    "lint-fix": "yarn lint --fix",
     "pre-commit": "pretty-quick --staged && yarn lint"
   },
   "dependencies": {

@@ -1,0 +1,10 @@
+{
+  "compilerOptions": {
+    "baseUrl": "./",
+    "paths": {
+      "*": ["src/*"],
+      "@theme": ["styles/theme/index.sass"],
+      "underscore": ["lodash"]
+    }
+  }
+}
