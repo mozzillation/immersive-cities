@@ -8,7 +8,7 @@
     "start": "next start",
     "lint": "eslint --ext .js,.jsx .",
     "lint-fix": "yarn lint --fix",
-    "pre-commit": "pretty-quick --staged && yarn lint-fix",
+    "pre-commit": "pretty-quick --staged",
     "postinstall": "husky install"
   },
   "dependencies": {
