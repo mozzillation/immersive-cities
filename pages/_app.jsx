@@ -1,14 +1,18 @@
-import PropTypes from 'prop-types';
-import '../styles/globals.sass';
-import React from 'react';
+import PropTypes from "prop-types";
+import "@styles/globals.sass";
+import Layout from "./layout";
 
-function MyApp({ Component, pageProps }) {
-  return <Component {...pageProps} />;
+function App({ Component, pageProps }) {
+  return (
+    <Layout>
+      <Component {...pageProps} />
+    </Layout>
+  );
 }
 
-MyApp.propTypes = {
+App.propTypes = {
   Component: PropTypes.elementType.isRequired,
-  pageProps: PropTypes.object
+  pageProps: PropTypes.object,
 };
 
-export default MyApp;
+export default App;

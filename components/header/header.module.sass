@@ -1,0 +1,31 @@
+@import @styles/theme
+
+.Header
+  width: 100%
+  background-color: $black
+  color: $white
+  padding: $margin
+  display: flex
+
+.Logo
+  cursor: pointer
+
+  +on-event
+    span
+      background: $white
+      color: $black
+
+
+  span
+    border: 1px solid $white
+    display: inline
+    padding: $margin-smallest $margin-smaller
+    text-transform: uppercase
+    letter-spacing: 2px
+    margin-right: 5px
+    font-size: $size-6
+
+    +animate(background, color)
+
+    &:nth-child(1)
+      border-radius: 1000px

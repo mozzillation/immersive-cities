@@ -1,11 +1,11 @@
-import Head from 'next/head';
+import Head from "next/head";
 
 export default function Home() {
   return (
-    <div>
+    <>
       <Head>
-        <title>IMMERSIVE CITIES</title>
+        <title>Immersive Cities</title>
       </Head>
-    </div>
+    </>
   );
 }

@@ -1,10 +1,26 @@
 {
   "compilerOptions": {
-    "baseUrl": "./",
+    "lib": ["dom", "dom.iterable", "esnext"],
+    "allowJs": true,
+    "skipLibCheck": true,
+    "strict": true,
+    "forceConsistentCasingInFileNames": true,
+    "noEmit": true,
+    "esModuleInterop": true,
+    "module": "esnext",
+    "moduleResolution": "node",
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "jsx": "preserve",
     "paths": {
-      "*": ["src/*"],
-      "@theme": ["styles/theme/index.sass"],
-      "underscore": ["lodash"]
-    }
-  }
+      "@/*": ["*"],
+      "@api": ["pages/api/index.js"],
+      "@styles/*": ["styles/*"],
+      "@component/*": ["components/*"]
+    },
+    "rootDir": ".",
+    "baseUrl": ".",
+    "typeRoots": ["node_modules/@types"]
+  },
+  "exclude": ["node_modules", "out", ".next"]
 }

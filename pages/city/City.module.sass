@@ -1,0 +1,64 @@
+@import @styles/theme
+
+.Header
+  background-color: $yellow
+  padding: ($margin-largest * 2) 0 $margin-largest
+
+.Name
+  font-size: $size-6
+  text-transform: uppercase
+  text-transform: uppercase
+  letter-spacing: 2px
+  font-size: $size-6
+  width: auto
+  margin-bottom: $margin
+
+.Title
+  font-size: $size-1
+  line-height: 1em
+
+.Content, .Audios
+  padding: $margin-largest 0
+  line-height: 1.6em
+
+.Content
+  background-color: $light-grey
+
+.AudioWrapper
+  display: grid
+  grid-row-gap: $margin-smaller
+  grid-template-rows: auto
+  max-width: 700px
+
+.AudioTitle
+  font-size: 16px
+  text-transform: uppercase
+  letter-spacing: 2px
+  color: $mid-grey
+  margin-bottom: $margin-smaller
+
+
+
+.Text
+  max-width: 700px
+
+  p
+    display: inline
+    border-bottom: 1px solid darken($light-grey, 20)
+    line-height: 2em
+
+.Authors
+  display: flex
+  align-items: flex-start
+  align-content: flex-start
+  justify-content: flex-start
+  padding-top: $margin
+
+.Author
+  margin-right: $margin-smaller
+  padding: $margin-smaller
+  border: 1px solid $black
+  border-radius: 4px
+  text-transform: uppercase
+  letter-spacing: 2px
+  font-size: 16px
