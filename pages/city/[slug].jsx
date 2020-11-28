@@ -58,8 +58,7 @@ export default function City({ city }) {
                             src="/audio/venice/03.wav"
                         />
                         <Audio
-                            title="La spesa a remi
-"
+                            title="La spesa a remi"
                             src="/audio/venice/04.wav"
                         />
                         <Audio
@@ -89,14 +88,18 @@ export async function getStaticProps(context) {
     }
 }
 
-export async function getStaticPaths() {
+export async function getStaticPaths({ locales }) {
     let paths = await getAllPosts()
 
     const internalization = []
 
     for (let post of paths) {
-        internalization.push({ params: { slug: post.slug }, locale: 'en' })
-        internalization.push({ params: { slug: post.slug }, locale: 'it' })
+        for (let locale of locales) {
+            internalization.push({
+                params: { slug: post.slug },
+                locale: locale
+            })
+        }
     }
 
     return {

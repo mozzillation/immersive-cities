@@ -18,7 +18,7 @@ export async function getCityBySlug(slug) {
         slug: slug,
         title: city.title,
         authors: city.authors,
-        it: city.it,
-        en: city.en
+        'it-IT': city['it-IT'],
+        'en-GB': city['en-GB']
     }
 }
