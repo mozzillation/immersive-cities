@@ -3,7 +3,7 @@ import Link from 'next/link'
 
 export const Header = () => {
     return (
-        <div className={styles.Header}>
+        <header className={styles.Header}>
             <div className={styles.Wrapper}>
                 <div className={styles.Name}>
                     <Link href={'/'}>
@@ -12,7 +12,11 @@ export const Header = () => {
                         </div>
                     </Link>
                 </div>
+
+                <div className={styles.Info}>
+                    <Link href={'/info'}>Info</Link>
+                </div>
             </div>
-        </div>
+        </header>
     )
 }

@@ -1,16 +1,11 @@
 import { getCityBySlug, getAllPosts } from '@api'
+import { getKeyByValue } from '@utils'
 import { useRouter } from 'next/router'
 import Head from 'next/head'
 import PropTypes from 'prop-types'
 import Audio from '@component/audio'
-
+import Link from 'next/link'
 import styles from './City.module.sass'
-
-function getKeyByValue(object, value) {
-    if (Object.getOwnPropertyNames(object).find((key) => key === value)) {
-        return object[value]
-    }
-}
 
 export default function City({ city }) {
     const router = useRouter()
@@ -32,9 +27,11 @@ export default function City({ city }) {
 
                     <div className={styles.Authors}>
                         {city.authors.map((author, index) => (
-                            <div className={styles.Author} key={index}>
-                                {author.name}
-                            </div>
+                            <Link href={author.link} key={index}>
+                                <div className={styles.Author}>
+                                    {author.name}
+                                </div>
+                            </Link>
                         ))}
                     </div>
                 </div>
@@ -42,7 +39,7 @@ export default function City({ city }) {
 
             <div className={styles.Audios}>
                 <div className={styles.Wrapper}>
-                    <div className={styles.AudioTitle}>Sounds</div>
+                    <div className={styles.AudioTitle}>AUDIO</div>
 
                     <div className={styles.AudioWrapper}>
                         <Audio

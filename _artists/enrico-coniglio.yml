@@ -1,0 +1,9 @@
+firstName: Enrico
+lastName: Coniglio
+website: 'http://www.enricoconiglio.com'
+portrait: enrico-coniglio.jpg
+
+it-IT:
+    bio: Enrico Coniglio è un sound artist e compositore interessato all'estetica del paesaggio. La sua ricerca intende investigare la perdita di identità dei luoghi e l'incertezza sull'evoluzione del territorio, con particolare attenzione al contesto della laguna veneziana. Il suo approccio si è via via focalizzato sul rapporto tra musica e rappresentazione del reale, adottando la definizione di "topofonia" e sviluppando il concetto di "area a margine" quale personale strumento di analisi del paesaggio sonoro contemporaneo.
+en-GB:
+    bio: English

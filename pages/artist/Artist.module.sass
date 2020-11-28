@@ -1,0 +1,39 @@
+@import @styles/theme
+
+.Artist
+
+.Intro
+  background-color: $light-grey
+  padding-top: ($margin-largest * 2)
+  padding-bottom: $margin-largest
+
+.Name
+  font-size: $size-1
+  line-height: 1em
+
+.Portrait
+  padding: $margin-large 0
+  img
+    width: 100%
+    height: auto
+    border-radius: 4px
+    display: block
+
+.Bio
+  padding: $margin-largest 0
+
+
+.Text
+  max-width: 700px
+
+  p
+    display: inline
+    line-height: 2em
+
+.Link
+  a
+    border-bottom: 1px solid $mid-grey
+    padding-bottom: $margin-smallest
+    +animate(border)
+    +on-event
+      border-color: $black

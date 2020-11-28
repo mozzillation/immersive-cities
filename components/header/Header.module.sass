@@ -4,8 +4,16 @@
   width: 100%
   background-color: $black
   color: $white
-  padding: $margin
-  display: flex
+  padding: $margin 0
+  text-transform: uppercase
+  letter-spacing: 2px
+  font-size: $size-6
+
+
+  .Wrapper
+    display: flex
+    flex-direction: row
+    justify-content: space-between
 
 .Logo
   cursor: pointer
@@ -29,3 +37,12 @@
 
     &:nth-child(1)
       border-radius: 1000px
+
+
+.Info
+  a
+    color: $mid-grey
+    +animate(color)
+
+    +on-event
+      color: $white

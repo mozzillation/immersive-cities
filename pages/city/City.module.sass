@@ -5,10 +5,6 @@
   padding-bottom: $margin-largest
   background-color: $yellow
 
-
-  .Wrapper
-
-
 .Name
   font-size: $size-6
   text-transform: uppercase
@@ -67,3 +63,9 @@
   text-transform: uppercase
   letter-spacing: 2px
   font-size: 16px
+  cursor: pointer
+  +animate(background, color)
+
+  +on-event
+    background-color: $black
+    color: $white

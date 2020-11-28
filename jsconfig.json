@@ -1,26 +1,27 @@
 {
-  "compilerOptions": {
-    "lib": ["dom", "dom.iterable", "esnext"],
-    "allowJs": true,
-    "skipLibCheck": true,
-    "strict": true,
-    "forceConsistentCasingInFileNames": true,
-    "noEmit": true,
-    "esModuleInterop": true,
-    "module": "esnext",
-    "moduleResolution": "node",
-    "resolveJsonModule": true,
-    "isolatedModules": true,
-    "jsx": "preserve",
-    "paths": {
-      "@/*": ["*"],
-      "@api": ["pages/api/index.js"],
-      "@styles/*": ["styles/*"],
-      "@component/*": ["components/*"]
+    "compilerOptions": {
+        "lib": ["dom", "dom.iterable", "esnext"],
+        "allowJs": true,
+        "skipLibCheck": true,
+        "strict": true,
+        "forceConsistentCasingInFileNames": true,
+        "noEmit": true,
+        "esModuleInterop": true,
+        "module": "esnext",
+        "moduleResolution": "node",
+        "resolveJsonModule": true,
+        "isolatedModules": true,
+        "jsx": "preserve",
+        "paths": {
+            "@/*": ["*"],
+            "@api": ["pages/api/index.js"],
+            "@styles/*": ["styles/*"],
+            "@component/*": ["components/*"],
+            "@utils": ["utils/index.jsx"]
+        },
+        "rootDir": ".",
+        "baseUrl": ".",
+        "typeRoots": ["node_modules/@types"]
     },
-    "rootDir": ".",
-    "baseUrl": ".",
-    "typeRoots": ["node_modules/@types"]
-  },
-  "exclude": ["node_modules", "out", ".next"]
+    "exclude": ["node_modules", "out", ".next"]
 }

@@ -22,3 +22,39 @@ export async function getCityBySlug(slug) {
         'en-GB': city['en-GB']
     }
 }
+
+export async function getAllArtists() {
+    const context = require.context('../../_artists', false, /\.yml$/)
+    const posts = []
+    for (const key of context.keys()) {
+        const post = key.slice(2)
+        const content = await import(`../../_artists/${post}`)
+        posts.push({
+            slug: post.replace('.yml', ''),
+            content: content
+        })
+    }
+    return posts
+}
+
+export async function getArtistBySlug(slug) {
+    const artist = await import(`../../_artists/${slug}.yml`)
+    return {
+        slug: slug,
+        firstName: artist.firstName,
+        lastName: artist.lastName,
+        portrait: artist.portrait,
+        website: artist.website,
+        'it-IT': artist['it-IT'],
+        'en-GB': artist['en-GB']
+    }
+}
+
+export async function getMore(slug) {
+    const more = await import(`../../_more/${slug}.yml`)
+    return {
+        title: more.title,
+        'it-IT': more['it-IT'],
+        'en-GB': more['en-GB']
+    }
+}

@@ -1,6 +1,19 @@
 @import @styles/theme
 
 .Footer
-  padding: $margin-smaller 0
+  padding: $margin-small 0
   background-color: $black
   color: $white
+  font-size: 16px
+  text-transform: uppercase
+  letter-spacing: 2px
+
+.Switcher
+  a
+    border-bottom: 1px solid $dark-grey
+    +animate(border)
+    &:first-child
+      margin-right: $margin-small
+
+    +on-event
+      border-color: $white
