@@ -11,7 +11,7 @@ en-GB:
 
 audio:
     - name: 'Traccia 01'
-      url: 'http://cdn.mzz.design/immersivecities/bari/01.mp3'
+      url: 'https://cdn.mzz.design/immersivecities/bari/01.mp3'
 
 authors:
     - name: Francesco Giannico
