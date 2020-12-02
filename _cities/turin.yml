@@ -1,4 +1,4 @@
-title: Torino
+title: Torino, geografie vocali
 color: '#ef92c6'
 
 it-IT:
@@ -7,11 +7,11 @@ it-IT:
 
 audio:
     - name: 'I fiumi, i bar, un tram, un folle, la banda'
-      url: 'http://file.immersivecities.org/turin/01.mp3'
+      url: 'http://cdn.mzz.design/immersivecities/turin/01.mp3'
     - name: 'Passeggiata sonora banchi ortofrutta'
-      url: 'http://file.immersivecities.org/turin/02.mp3'
+      url: 'http://cdn.mzz.design/immersivecities/turin/02.mp3'
     - name: 'Passeggiata sonora Balon'
-      url: 'http://file.immersivecities.org/turin/03.mp3'
+      url: 'http://cdn.mzz.design/immersivecities/turin/03.mp3'
 
 en-GB:
     name: Turin

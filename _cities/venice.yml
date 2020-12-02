@@ -7,15 +7,15 @@ it-IT:
 
 audio:
     - name: 'Mercato al minuto (Rialto)'
-      url: 'http://file.immersivecities.org/venice/01.mp3'
+      url: 'http://cdn.mzz.design/immersivecities/venice/01.mp3'
     - name: 'La bottega del remér'
-      url: 'http://file.immersivecities.org/venice/02.mp3'
+      url: 'http://cdn.mzz.design/immersivecities/venice/02.mp3'
     - name: 'Campo San Giacomo da l’Orio'
-      url: 'http://file.immersivecities.org/venice/03.mp3'
+      url: 'http://cdn.mzz.design/immersivecities/venice/03.mp3'
     - name: 'La spesa a remi'
-      url: 'http://file.immersivecities.org/venice/04.mp3'
+      url: 'http://cdn.mzz.design/immersivecities/venice/04.mp3'
     - name: 'A cena da Marta'
-      url: 'http://file.immersivecities.org/venice/05.mp3'
+      url: 'http://cdn.mzz.design/immersivecities/venice/05.mp3'
 
 en-GB:
     name: Venice
