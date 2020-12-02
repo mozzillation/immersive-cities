@@ -7,11 +7,11 @@ it-IT:
 
 audio:
     - name: 'I fiumi, i bar, un tram, un folle, la banda'
-      url: 'https://file.immersivecities.org/turin/01.mp3'
+      url: 'http://file.immersivecities.org/turin/01.mp3'
     - name: 'Passeggiata sonora banchi ortofrutta'
-      url: 'https://file.immersivecities.org/turin/02.mp3'
+      url: 'http://file.immersivecities.org/turin/02.mp3'
     - name: 'Passeggiata sonora Balon'
-      url: 'https://file.immersivecities.org/turin/03.mp3'
+      url: 'http://file.immersivecities.org/turin/03.mp3'
 
 en-GB:
     name: Turin

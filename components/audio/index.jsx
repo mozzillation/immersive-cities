@@ -9,6 +9,7 @@ export default function Audio({ title, src }) {
 
     let source = {
         type: 'audio',
+        title: title,
         sources: [
             {
                 src: src,
