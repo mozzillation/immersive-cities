@@ -1,0 +1,17 @@
+title: Palermo, 2020
+
+it-IT:
+    name: Palermo
+    text: 'Palermo è un montaggio di paesaggi sonori registrati a Palermo durante una passeggiata sonora divisa in due tappe: la prima dall’inizio del mercato di Ballarò al Foro Italico (quindi incrociando Corso Vittorio Emanuele, i Quattro Canti, la Cala); la seconda a Monte Pellegrino luogo del Santuario dedicato a Santa Rosalia, la patrona della città. All’interno delle registrazioni è possibile sentire la commistione di voci, musiche e “abbanniate” - le classiche urla dei venditori - del mercato che a poco a poco diradano nelle stradine del centro storico più interno che, essendo domenica mattina, risulta essere particolarmente silenzioso. Si prosegue quindi per Corso Vittorio Emanuele, avanti e indietro, prima verso la Cattedrale, dove ci si ferma qualche minuto in un negozio tunisino e poi verso il mare arrivando alla Cala. Qui si incontra ai Quattro Canti, accanto ad una delle fontane, il dialogo di un cocchiere che si lamenta, in regime di Covid-19, del nuovo modo di frequentare le taverne. Nel piccolo porticciolo di Palermo si sente la classifica piattaforma di legno percossa dai passi dei corridori e poi via via la confusione del foro italico popolato da famiglie con bambini. Qui si può notare la differenza di accenti tra la Palermo popolare e quella più radical chic. L’ultima breve parte è una registrazione al Santuario di Santa Rosalia. Un bambino chiede delle monetine da mettere alla Santa. Il Santuario è vuoto e non ci sono neanche le sedie per via della legislazione Covid. Così si sente un riverbero intimo che accoglie i dialoghi sussurrati dei visitori. Tra questi un uomo che racconta del suo matrimonio avvenuto lì anni prima.'
+
+en-GB:
+    name: Palermo
+    text: ''
+
+audio:
+    - name: 'Palermo - Domenica 08-11-2020 09.00 AM'
+      url: 'https://file.immersivecities.org/palermo/01.mp3'
+
+authors:
+    - name: Vacuamoenia
+      link: /artist/vacuamoenia

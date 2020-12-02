@@ -9,10 +9,15 @@
   background-color: $white
   border: 1px solid $black
 
+  +mq(mobile)
+    flex-direction: column
 
 .Filename
   padding: $margin-smaller $margin-small
   white-space: nowrap
+
+  +mq(mobile)
+    white-space: normal
 
 .Wrapper
   padding: 0

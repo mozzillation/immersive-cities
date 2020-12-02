@@ -42,26 +42,13 @@ export default function City({ city }) {
                     <div className={styles.AudioTitle}>AUDIO</div>
 
                     <div className={styles.AudioWrapper}>
-                        <Audio
-                            title="Mercato al minuto (Rialto)"
-                            src="/audio/venice/01.wav"
-                        />
-                        <Audio
-                            title="La bottega del remér"
-                            src="/audio/venice/02.wav"
-                        />
-                        <Audio
-                            title="Campo San Giacomo da l’Orio"
-                            src="/audio/venice/03.wav"
-                        />
-                        <Audio
-                            title="La spesa a remi"
-                            src="/audio/venice/04.wav"
-                        />
-                        <Audio
-                            title="A cena da Marta"
-                            src="/audio/venice/05.wav"
-                        />
+                        {city.audio.map((audio, index) => (
+                            <Audio
+                                title={audio.name}
+                                src={audio.url}
+                                key={index}
+                            />
+                        ))}
                     </div>
                 </div>
             </div>

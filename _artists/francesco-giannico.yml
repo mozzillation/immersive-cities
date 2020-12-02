@@ -1,0 +1,10 @@
+firstName: Francesco
+lastName: Giannico
+website: 'https://www.francescogiannico.com'
+portrait: francesco-giannico.jpg
+
+it-IT:
+    bio: Francesco Giannico, musicista elettroacustico, classe 1979, si laurea in Musicologia presso l’Università di Lecce con una tesi in Storia della Musica per Film. Nel 2010 fonda AIPS, l’Archivio italiano dei Paesaggi Sonori; un collettivo dedito alla diffusione del concetto di paesaggio sonoro. Accanto alla produzione musicale e discografica, ha sviluppato negli ultimi anni una personale metodologia formativa, utile a innescare processi di conoscenza di uno specifico territorio utilizzando l'elemento sonoro.
+
+en-GB:
+    bio: English

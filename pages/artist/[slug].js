@@ -30,11 +30,13 @@ export default function Artist({ artist }) {
                         <img src={'/artist/' + artist.portrait} />
                     </div>
 
-                    <div className={styles.Link}>
-                        <a href={artist.website} target="_new">
-                            {artist.website} ↗
-                        </a>
-                    </div>
+                    {artist.website ? (
+                        <div className={styles.Link}>
+                            <a href={artist.website} target="_new">
+                                {artist.website} ↗
+                            </a>
+                        </div>
+                    ) : null}
                 </div>
             </div>
 
@@ -50,7 +52,6 @@ export default function Artist({ artist }) {
 }
 
 export async function getStaticProps(context) {
-    console.log(context)
     return {
         props: {
             artist: await getArtistBySlug(context.params.slug)

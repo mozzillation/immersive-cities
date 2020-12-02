@@ -1,0 +1,17 @@
+title: La Uascèzze
+
+it-IT:
+    name: Bari
+    text: 'La Uascèzze ​​a Bari è la contentezza, l’euforia goliardica e chiassosa. Si tratta di un termine dialettale che bene rappresenta il mood complessivo del paesaggio sonoro narrato e narrante della “città vecchia” di Bari dove si sviluppa un percorso fatto di vicoli, motorini e urla dall’origine variegata. L’idea della composizione è quella di voler realizzare una sorta di cartolina sonora dinamica con lo scopo di fissare una suggestione basata su un ascolto autentico e reinterpretato al tempo stesso della parte più verace di Bari. In particolare, le registrazioni sono state effettuate nelle giornate del 4 e del 5 novembre 2020, utilizzando Zoom H4, H5, microfoni a contatto e microfoni Rode direzionali. Si è scelto di seguire un percorso unitario, ma che presentasse al suo interno elementi eterogenei, in modo da rappresentare nel miglior modo possibile l’articolato insieme di suoni che governa questa zona. Nello specifico, il tragitto comincia seguendo i vicoli che si snodano una volta entrati dal lato del lungomare, all’altezza del Duomo. Segnali sonori ben presenti, connotati dalle voci strillate degli abitanti lungo i vicoli, contrastano con l’immagine spoglia delle stesse strade. La presenza è più forte dell’assenza perché, si dice ​«​il barese non conosce melodia e la sua allegria è caotica e chiassosa, ma anche rauca, allusiva, secca, presaga, come afona o sorda, certamente non armonica​» ​(cit. Gianpaolo Altamura)'
+
+en-GB:
+    name: Bari
+    text: ''
+
+audio:
+    - name: 'Traccia 01'
+      url: 'https://file.immersivecities.org/bari/01.mp3'
+
+authors:
+    - name: Francesco Giannico
+      link: /artist/francesco-giannico

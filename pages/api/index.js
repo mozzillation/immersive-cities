@@ -18,6 +18,7 @@ export async function getCityBySlug(slug) {
         slug: slug,
         title: city.title,
         authors: city.authors,
+        audio: city.audio,
         'it-IT': city['it-IT'],
         'en-GB': city['en-GB']
     }

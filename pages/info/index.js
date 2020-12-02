@@ -33,5 +33,5 @@ export async function getStaticProps() {
 }
 
 InfoPage.propTypes = {
-    info: PropTypes.array
+    info: PropTypes.object
 }

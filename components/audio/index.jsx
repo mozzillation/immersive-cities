@@ -12,7 +12,7 @@ export default function Audio({ title, src }) {
         sources: [
             {
                 src: src,
-                type: 'audio/wav'
+                type: 'audio/mp3'
             }
         ]
     }
