@@ -1,10 +1,11 @@
 import styles from './Info.module.sass'
 import { useRouter } from 'next/router'
-import { getMore } from '@api'
+import { getMore, getAllArtists } from '@api'
 import { getKeyByValue } from '@utils'
 import PropTypes from 'prop-types'
+import Link from 'next/link'
 
-export default function InfoPage({ info }) {
+export default function InfoPage({ info, artists }) {
     const router = useRouter()
     const { locale } = router
 
@@ -19,6 +20,21 @@ export default function InfoPage({ info }) {
                         <p key={line}>{line}</p>
                     ))}
                 </div>
+
+                <div className={styles.List}>
+                    {artists.map((artist, index) => (
+                        <Link href={'/artist/' + artist.slug} key={index}>
+                            <div className={styles.Card}>
+                                <div className={styles.Portrait}>
+                                    <img src={'/artist/' + artist.portrait} />
+                                </div>
+                                <div className={styles.CardTitle}>
+                                    {artist.firstName} {artist.lastName}
+                                </div>
+                            </div>
+                        </Link>
+                    ))}
+                </div>
             </div>
         </div>
     )
@@ -27,11 +43,13 @@ export default function InfoPage({ info }) {
 export async function getStaticProps() {
     return {
         props: {
-            info: await getMore('info')
+            info: await getMore('info'),
+            artists: await getAllArtists()
         }
     }
 }
 
 InfoPage.propTypes = {
-    info: PropTypes.object
+    info: PropTypes.object,
+    artists: PropTypes.array
 }

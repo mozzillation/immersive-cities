@@ -6,12 +6,16 @@
   padding-top: $margin-largest * 2
   padding-bottom: $margin-largest
 
+  +mq(mobile)
+    padding: $margin-largest 0
+
 .Title
   font-size: $size-1
   line-height: 1em
 
   +mq(mobile)
     font-size: 40px
+    line-height: 1.2em
 
 .Text
   padding-top: $margin-largest
@@ -22,3 +26,49 @@
 
   p
     margin-bottom: $margin
+
+.Artists
+  background-color: $black
+  color: $white
+  padding-top: $margin-largest * 2
+  padding-bottom: $margin-largest
+
+  +mq(mobile)
+    padding: $margin-largest 0
+
+.Title
+  font-size: $size-1
+  line-height: 1em
+
+  +mq(mobile)
+    font-size: 40px
+    line-height: 1.2em
+
+.List
+  display: grid
+  grid-template-columns: 1fr 1fr
+  grid-gap: $margin-largest
+  padding: $margin-largest 0
+
+  +mq(mobile)
+    grid-template-columns: 1fr
+
+.Card
+  align-self: flex-end
+  cursor: pointer
+
+  +animate(opacity)
+  +on-event
+    opacity: 0.6
+
+.CardTitle
+  font-size: 32px
+
+.Portrait
+  padding: 0 0 $margin 0
+
+  img
+    width: 100%
+    height: auto
+    border-radius: 4px
+    display: block

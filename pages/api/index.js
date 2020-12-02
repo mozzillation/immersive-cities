@@ -32,7 +32,9 @@ export async function getAllArtists() {
         const content = await import(`../../_artists/${post}`)
         posts.push({
             slug: post.replace('.yml', ''),
-            content: content
+            firstName: content.firstName,
+            lastName: content.lastName,
+            portrait: content.portrait
         })
     }
     return posts
