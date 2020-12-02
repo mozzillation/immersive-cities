@@ -1,0 +1,25 @@
+@import @styles/theme
+
+.Wrapper
+  background-color: $black
+
+.List
+  display: grid
+  grid-gap: $margin
+  grid-template-columns: 1fr
+  grid-template-rows: auto
+  padding: $margin-largest 0
+
+.Card
+  padding: $margin-smaller
+  border-radius: $multiple
+  overflow: hidden
+
+  .Name
+    font-size: 14px
+    text-transform: uppercase
+    letter-spacing: 2px
+    padding-bottom: $margin
+
+  .Title
+    font-size: 32px

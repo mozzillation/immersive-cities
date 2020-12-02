@@ -1,4 +1,4 @@
-import { getCityBySlug, getAllPosts } from '@api'
+import { getCityBySlug, getAllCities } from '@api'
 import { getKeyByValue } from '@utils'
 import { useRouter } from 'next/router'
 import Head from 'next/head'
@@ -19,7 +19,10 @@ export default function City({ city }) {
                 <title>Immersive Cities / {currenTrans.name} </title>
             </Head>
 
-            <div className={styles.Header}>
+            <div
+                className={styles.Header}
+                style={{ backgroundColor: city.color }}
+            >
                 <div className={styles.Wrapper}>
                     <div className={styles.Name}>{currenTrans.name}</div>
 
@@ -73,7 +76,7 @@ export async function getStaticProps(context) {
 }
 
 export async function getStaticPaths({ locales }) {
-    let paths = await getAllPosts()
+    let paths = await getAllCities()
 
     const internalization = []
 

@@ -1,4 +1,4 @@
-export async function getAllPosts() {
+export async function getAllCities() {
     const context = require.context('../../_cities', false, /\.yml$/)
     const posts = []
     for (const key of context.keys()) {
@@ -6,7 +6,10 @@ export async function getAllPosts() {
         const content = await import(`../../_cities/${post}`)
         posts.push({
             slug: post.replace('.yml', ''),
-            content: content
+            title: content.title,
+            color: content.color,
+            'it-IT': content['it-IT'],
+            'en-GB': content['en-GB']
         })
     }
     return posts
@@ -16,6 +19,7 @@ export async function getCityBySlug(slug) {
     const city = await import(`../../_cities/${slug}.yml`)
     return {
         slug: slug,
+        color: city.color,
         title: city.title,
         authors: city.authors,
         audio: city.audio,
