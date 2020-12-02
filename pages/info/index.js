@@ -4,6 +4,8 @@ import { getMore, getAllArtists } from '@api'
 import { getKeyByValue } from '@utils'
 import PropTypes from 'prop-types'
 import Link from 'next/link'
+import Image from 'next/image'
+import Head from 'next/head'
 
 export default function InfoPage({ info, artists }) {
     const router = useRouter()
@@ -13,6 +15,9 @@ export default function InfoPage({ info, artists }) {
 
     return (
         <div className={styles.Info}>
+            <Head>
+                <title>Immersive Cities / Info</title>
+            </Head>
             <div className={styles.Wrapper}>
                 <div className={styles.Title}>{info.title}</div>
                 <div className={styles.Text}>
@@ -26,7 +31,17 @@ export default function InfoPage({ info, artists }) {
                         <Link href={'/artist/' + artist.slug} key={index}>
                             <div className={styles.Card}>
                                 <div className={styles.Portrait}>
-                                    <img src={'/artist/' + artist.portrait} />
+                                    <Image
+                                        src={'/artist/' + artist.portrait}
+                                        alt={
+                                            artist.firstName +
+                                            ' ' +
+                                            artist.lastName
+                                        }
+                                        loading="lazy"
+                                        layout="fill"
+                                        objectFit="cover"
+                                    />
                                 </div>
                                 <div className={styles.CardTitle}>
                                     {artist.firstName} {artist.lastName}

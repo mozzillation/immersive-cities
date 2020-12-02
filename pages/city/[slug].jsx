@@ -16,7 +16,9 @@ export default function City({ city }) {
     return (
         <section className={styles.City}>
             <Head>
-                <title>Immersive Cities / {currenTrans.name} </title>
+                <title>
+                    Immersive Cities / {currenTrans.name}: {city.title}
+                </title>
             </Head>
 
             <div
