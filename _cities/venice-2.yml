@@ -1,0 +1,22 @@
+title: Unheard Spaces
+color: '#4975ff'
+
+it-IT:
+    name: Venezia
+    text: ''
+
+en-GB:
+    name: Venice
+    text:
+        - Unheard Spaces comprises recordings of Venice made over a three-week period in February 2000. The recordings focus on the way sound permeates the city and its attendant canals and lagoon to register an elaborate set of signifiers. As one of the most recognisable places in the world, and subject of countless artistic works, I am interested to know whether it is possible to portray Venice in new ways by emphasising specific aural cues expressed by spatial and material interactions and social dynamics. These interactions are sited within complex resonant and reverberant profiles which demonstrate how perversely mutable the acoustic environment can be. The pervasive presence of water inevitably shapes the encounter and navigation of this serpentine city and is integral to the unique acoustic ecology that operates there. Many of the sounds featured in Unheard Spaces are recorded under water using a hydrophone to afford new and unusal perspectives. Inspired by Death in Venice (1971) by Luchino Visconti, Don't Look Now (1973) by Nicholas Roeg and The Comfort of Strangers (1990) by Paul Schrader, Unheard Spaces uses narrative to transport listeners through a series of spectral encounters resounding across narrow streets, and modulated by lugubrious piazzas and fetid canals that constitute this decomposing place.
+        - Unheard Spaces was originally arranged and mixed in eight-channel surround sound at the Department of Room Acoustics at IRCAM for the La Costruzione del Suono Festival staged in Mestre, Italy in 2004. This stereo version is derived from the original eight-channel surround mix. Unheard Spaces is dedicated to the Venetian expatriates living in Mestre displaced by economic circumstances.
+        - 'Assistant sound recordist: Madelynne Cornish'
+        - This project is supported by the Australia Council for the Arts, Bogong Centre for Sound Culture, and the Department of Room Acoustics at IRCAM
+
+audio:
+    - name: 'Unheard Spaces'
+      url: 'https://cdn.mzz.design/immersivecities/venice-2/01.mp3'
+
+authors:
+    - name: Philip Samartzis
+      link: /artist/philip-samartzis
