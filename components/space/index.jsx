@@ -160,11 +160,13 @@ export default class Space extends Component {
 const variants = {
     visible: (i) => ({
         opacity: 1,
+        scale: [0, 2, 1],
         transition: {
-            delay: i * 0.1
+            delay: i * 0.1,
+            ease: 'backOut'
         }
     }),
-    hidden: { opacity: 0 }
+    hidden: { opacity: 0, scale: 0 }
 }
 
 export function Pin({
