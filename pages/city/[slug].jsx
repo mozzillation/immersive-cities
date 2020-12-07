@@ -44,16 +44,27 @@ export default function City({ city }) {
 
             <div className={styles.Audios}>
                 <div className={styles.Wrapper}>
-                    <div className={styles.AudioTitle}>AUDIO</div>
-
                     <div className={styles.AudioWrapper}>
-                        {city.audio.map((audio, index) => (
-                            <Audio
-                                title={audio.name}
-                                src={audio.url}
-                                key={index}
-                            />
-                        ))}
+                        {city.audio.map((chapter) => {
+                            return (
+                                <>
+                                    <div
+                                        className={styles.AudioTitle}
+                                        key={chapter.chapter}
+                                    >
+                                        {chapter.chapter}
+                                    </div>
+
+                                    {chapter.audio.map((audio) => (
+                                        <Audio
+                                            src={audio.url}
+                                            title={audio.name}
+                                            key={audio.url}
+                                        />
+                                    ))}
+                                </>
+                            )
+                        })}
                     </div>
                 </div>
             </div>

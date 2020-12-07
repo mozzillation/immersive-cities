@@ -1,0 +1,67 @@
+title: Napoli
+color: '#ff725c'
+
+it-IT:
+    name: Napoli
+    text:
+        - ''
+
+en-GB:
+    name: Naples
+    text:
+        - ''
+
+audio:
+    - chapter: 'La Cucina'
+      audio:
+          - name: 'La Tempure'
+            url: 'https://cdn.mzz.design/immersivecities/naples/La%20cucina/La%20Tempure.mp3'
+          - name: "La finta pizzaiola e l'uosemo"
+            url: 'https://cdn.mzz.design/immersivecities/naples/La%20cucina/La%20finta%20pizzaiola%20e%20l%27%20uosemo.mp3'
+
+    - chapter: 'La Lingua'
+      audio:
+          - name: 'Dio e creanza'
+            url: 'https://cdn.mzz.design/immersivecities/naples/La%20lingua/Dio%20e%20creanza.mp3'
+          - name: 'Il caffè sospeso'
+            url: 'https://cdn.mzz.design/immersivecities/naples/La%20lingua/Il%20caffe%CC%80%20sospeso.mp3'
+          - name: 'O Sole Mio'
+            url: 'https://cdn.mzz.design/immersivecities/naples/La%20lingua/O%20sole%20mio.mp3'
+          - name: 'Peculiarità del napoletano'
+            url: 'https://cdn.mzz.design/immersivecities/naples/La%20lingua/Peculiarita%CC%80%20del%20napoletano.mp3'
+          - name: 'Priezza'
+            url: 'https://cdn.mzz.design/immersivecities/naples/La%20lingua/Priezza.mp3'
+
+    - chapter: 'La Musica'
+      audio:
+          - name: "'A Tazza 'e Caffè"
+            url: 'https://cdn.mzz.design/immersivecities/naples/La%20musica/%27A%20Tazza%20%27e%20Caffe%CC%80.mp3'
+          - name: 'Ammore Amaro'
+            url: 'https://cdn.mzz.design/immersivecities/naples/La%20musica/Ammore%20Amaro.mp3'
+          - name: 'Canto di protesta 1'
+            url: 'https://cdn.mzz.design/immersivecities/naples/La%20musica/Canto%20di%20protesta%201.mp3'
+          - name: 'Canto di protesta 2'
+            url: 'https://cdn.mzz.design/immersivecities/naples/La%20musica/Canto%20di%20protesta%202.mp3'
+          - name: 'La cantina'
+            url: 'https://cdn.mzz.design/immersivecities/naples/La%20musica/La%20cantina.mp3'
+          - name: 'Nu poco ‘e sentimento'
+            url: 'https://cdn.mzz.design/immersivecities/naples/La%20musica/Nu%20poco%20%E2%80%98e%20sentimento.mp3'
+          - name: 'Vola Cardillo'
+            url: 'https://cdn.mzz.design/immersivecities/naples/La%20musica/Vola%20Cardillo.mp3'
+
+    - chapter: 'La strada'
+      audio:
+          - name: 'La notte prima del lockdown'
+            url: 'https://cdn.mzz.design/immersivecities/naples/La%20strada/La%20notte%20prima%20del%20lockdown.mp3'
+          - name: 'Maradona'
+            url: 'https://cdn.mzz.design/immersivecities/naples/La%20strada/Maradona.mp3'
+          - name: 'Pignasecca'
+            url: 'https://cdn.mzz.design/immersivecities/naples/La%20strada/Pignasecca.mp3'
+          - name: 'Salumiere'
+            url: 'https://cdn.mzz.design/immersivecities/naples/La%20strada/Salumiere.mp3'
+          - name: 'Tina e Angelo, fruttivendoli'
+            url: 'https://cdn.mzz.design/immersivecities/naples/La%20strada/Tina%20e%20Angelo%2C%20fruttivendoli.mp3'
+
+authors:
+    - name: Marco Messina
+      link: /artist/marco-messina

@@ -13,8 +13,10 @@ en-GB:
         - ''
 
 audio:
-    - name: 'Palermo - Domenica 08-11-2020 09.00 AM'
-      url: 'https://cdn.mzz.design/immersivecities/palermo/01.mp3'
+    - chapter: 'Audio'
+      audio:
+          - name: 'Palermo - Domenica 08-11-2020 09.00 AM'
+            url: 'https://cdn.mzz.design/immersivecities/palermo/01.mp3'
 
 authors:
     - name: Vacuamoenia

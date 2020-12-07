@@ -3,7 +3,8 @@ color: '#4975ff'
 
 it-IT:
     name: Venezia
-    text: ''
+    text:
+        - ''
 
 en-GB:
     name: Venice
@@ -14,8 +15,10 @@ en-GB:
         - This project is supported by the Australia Council for the Arts, Bogong Centre for Sound Culture, and the Department of Room Acoustics at IRCAM
 
 audio:
-    - name: 'Unheard Spaces'
-      url: 'https://cdn.mzz.design/immersivecities/venice-2/01.mp3'
+    - chapter: 'Audio'
+      audio:
+          - name: 'Unheard Spaces'
+            url: 'https://cdn.mzz.design/immersivecities/venice-2/01.mp3'
 
 authors:
     - name: Philip Samartzis

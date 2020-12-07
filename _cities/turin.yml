@@ -7,12 +7,14 @@ it-IT:
         - "Nei miei lavori di field recording,  solitamente cerco luoghi esotici e ricchi di sonorità a me ignote. Spesso mi innervosisco se in cuffia durante una registrazione odo un vociferare umano lontano. In questo caso invece ho dovuto cambiare in maniera radicale la prospettiva. Le voci degli abitanti di Torino, la città in cui sono nato, sono diventate l'animale raro da cogliere in maniera quasi voyeristica. Per fare cio' ho deciso di abbandonare l'attrezzatura professionale troppo vistosa e di adottare il cellulare come registratore con collegato un piccolo microfono stereo nascosto nella giacca. Sono riuscito in questo modo a passeggiare inosservato avvicinandomi e rubando le conversazioni che piu' mi sembravano rappresentative. Ne sono uscite 3 tracce che descrivo qui di seguito."
 
 audio:
-    - name: 'I fiumi, i bar, un tram, un folle, la banda'
-      url: 'https://cdn.mzz.design/immersivecities/turin/01.mp3'
-    - name: 'Passeggiata sonora banchi ortofrutta'
-      url: 'https://cdn.mzz.design/immersivecities/turin/02.mp3'
-    - name: 'Passeggiata sonora Balon'
-      url: 'https://cdn.mzz.design/immersivecities/turin/03.mp3'
+    - chapter: 'Audio'
+      audio:
+          - name: 'I fiumi, i bar, un tram, un folle, la banda'
+            url: 'https://cdn.mzz.design/immersivecities/turin/01.mp3'
+          - name: 'Passeggiata sonora banchi ortofrutta'
+            url: 'https://cdn.mzz.design/immersivecities/turin/02.mp3'
+          - name: 'Passeggiata sonora Balon'
+            url: 'https://cdn.mzz.design/immersivecities/turin/03.mp3'
 
 en-GB:
     name: Turin
