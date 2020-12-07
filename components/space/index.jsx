@@ -141,6 +141,7 @@ export default class Space extends Component {
                                                 onHover={this.onHover}
                                                 onLeave={this.onLeave}
                                                 key={index}
+                                                i={index}
                                             />
                                         )
                                     })}
@@ -156,6 +157,16 @@ export default class Space extends Component {
     }
 }
 
+const variants = {
+    visible: (i) => ({
+        opacity: 1,
+        transition: {
+            delay: i * 0.1
+        }
+    }),
+    hidden: { opacity: 0 }
+}
+
 export function Pin({
     x,
     y,
@@ -165,21 +176,28 @@ export function Pin({
     slug,
     classN,
     onHover,
-    onLeave
+    onLeave,
+    i
 }) {
     const styles = {
-        transform: `translate(${x}px, ${y}px)`,
+        left: x,
+        top: y,
         backgroundColor: color
     }
 
     return (
         <Link href={'city/' + slug}>
-            <div
+            <motion.div
+                custom={i}
+                initial="hidden"
+                animate="visible"
+                variants={variants}
                 className={classN}
                 style={styles}
+                whileHover={{ scale: 2 }}
                 onMouseEnter={() => onHover(title, name, color)}
                 onMouseLeave={() => onLeave()}
-            ></div>
+            ></motion.div>
         </Link>
     )
 }
@@ -190,6 +208,7 @@ Space.propTypes = {
 }
 
 Pin.propTypes = {
+    i: PropTypes.number,
     x: PropTypes.number,
     y: PropTypes.number,
     name: PropTypes.string,
