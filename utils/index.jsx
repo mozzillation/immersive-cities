@@ -22,3 +22,9 @@ export function useDeviceDetect() {
 
     return { isMobile }
 }
+
+export const calcWinsize = () => {
+    if (process.browser) {
+        return { width: window.innerWidth, height: window.innerHeight }
+    }
+}

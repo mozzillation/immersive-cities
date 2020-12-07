@@ -6,6 +6,7 @@ import PropTypes from 'prop-types'
 import Audio from '@component/audio'
 import Link from 'next/link'
 import styles from './City.module.sass'
+import { Fragment } from 'react'
 
 export default function City({ city }) {
     const router = useRouter()
@@ -31,9 +32,9 @@ export default function City({ city }) {
                     <div className={styles.Title}>{city.title}</div>
 
                     <div className={styles.Authors}>
-                        {city.authors.map((author, index) => (
-                            <Link href={author.link} key={index}>
-                                <div className={styles.Author}>
+                        {city.authors.map((author) => (
+                            <Link href={author.link} key={author}>
+                                <div className={styles.Author} key={author}>
                                     {author.name}
                                 </div>
                             </Link>
@@ -47,11 +48,8 @@ export default function City({ city }) {
                     <div className={styles.AudioWrapper}>
                         {city.audio.map((chapter) => {
                             return (
-                                <>
-                                    <div
-                                        className={styles.AudioTitle}
-                                        key={chapter.chapter}
-                                    >
+                                <Fragment key={chapter.chapter}>
+                                    <div className={styles.AudioTitle}>
                                         {chapter.chapter}
                                     </div>
 
@@ -62,7 +60,7 @@ export default function City({ city }) {
                                             key={audio.url}
                                         />
                                     ))}
-                                </>
+                                </Fragment>
                             )
                         })}
                     </div>

@@ -8,6 +8,8 @@ export async function getAllCities() {
             slug: post.replace('.yml', ''),
             title: content.title,
             color: content.color,
+            x: content.x,
+            y: content.y,
             'it-IT': content['it-IT'],
             'en-GB': content['en-GB']
         })

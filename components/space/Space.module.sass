@@ -1,0 +1,69 @@
+@import @styles/theme
+
+.SpaceWrapper
+  width: 100%
+  height: auto
+  position: fixed
+  margin: auto
+  top: 0
+  left: 0
+  right: 0
+  bottom: 0
+  z-index: 99
+
+.Space
+  width: 2000px
+  height: 2000px
+  cursor: grab
+  color: $white
+
+  &.Panning
+    cursor: grabbing
+
+  .Background
+    position: absolute
+    left: 0
+    right: 0
+    bottom: 0
+    right: 0
+    z-index: -1
+    background-color: $white
+
+.Transfomer
+  width: 100%
+  height: 100%
+
+.Pin
+  width: 20px
+  height: 20px
+  border-radius: 5px
+  cursor: pointer
+
+  +animate(background)
+
+  +on-event
+    background-color: $white !important
+
+.BigTitle
+  position: fixed
+  top: 0
+  left: 0
+  right: 0
+  bottom: 0
+  z-index: 0
+  color: $white
+  display: flex
+  align-items: center
+  align-content: center
+  justify-content: center
+  text-align: center
+  padding: $margin
+  flex-direction: column
+
+.BigTitleTitle
+  font-size: 10vw
+
+.BigTitleName
+  font-size: $size-6
+  text-transform: uppercase
+  letter-spacing: 2px
