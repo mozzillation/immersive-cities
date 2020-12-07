@@ -22,10 +22,17 @@
   padding-bottom: $margin
   max-width: 700px
   line-height: 2em
-  opacity: 0.7
 
   p
     margin-bottom: $margin
+
+    a
+      color: $white
+      border-bottom: 1px solid $white
+
+      +animate(opacity)
+      +on-event
+        opacity: 0.6
 
 .Artists
   background-color: $black
