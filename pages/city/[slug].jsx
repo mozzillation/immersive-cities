@@ -7,6 +7,7 @@ import Audio from '@component/audio'
 import Link from 'next/link'
 import styles from './City.module.sass'
 import { Fragment } from 'react'
+import Markdown from 'markdown-to-jsx'
 
 export default function City({ city }) {
     const router = useRouter()
@@ -70,9 +71,7 @@ export default function City({ city }) {
             <div className={styles.Content}>
                 <div className={styles.Wrapper}>
                     <div className={styles.Text}>
-                        {currenTrans.text.map((line, index) => (
-                            <p key={index}>{line}</p>
-                        ))}
+                        <Markdown>{currenTrans.text}</Markdown>
                     </div>
                 </div>
             </div>

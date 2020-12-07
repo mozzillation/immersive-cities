@@ -5,13 +5,13 @@ y: 1225
 
 it-IT:
     name: Napoli
-    text:
-        - ''
+    text: |
+        Italiano
 
 en-GB:
     name: Naples
-    text:
-        - ''
+    text: |
+        English
 
 audio:
     - chapter: 'La Cucina'
