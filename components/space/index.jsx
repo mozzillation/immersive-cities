@@ -181,9 +181,13 @@ export function Pin({
     onLeave,
     i
 }) {
+    const pinDim = 40
+
     const styles = {
-        left: x,
-        top: y,
+        left: x - pinDim / 2,
+        top: y - pinDim / 2,
+        width: pinDim,
+        height: pinDim,
         backgroundColor: color
     }
 
