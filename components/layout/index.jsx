@@ -14,7 +14,7 @@ export default function Layout({ children, all, path }) {
     return (
         <div className={styles[classN]}>
             <div className={styles.Layout}>
-                <Header />
+                <Header visible={true} />
                 <main>{children}</main>
                 <Footer all={all} path={path} />
             </div>
