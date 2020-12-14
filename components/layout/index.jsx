@@ -4,10 +4,7 @@ import { Footer } from '@component/footer'
 import styles from './Layout.module.sass'
 
 export default function Layout({ children, all, path }) {
-    console.log(path)
-
     let classN
-
     if (path === '/') {
         classN = 'home'
     } else {
