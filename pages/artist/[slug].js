@@ -19,7 +19,11 @@ export default function Artist({ artist }) {
                 canonical="https://www.immersivecities.org/"
                 openGraph={{
                     url: 'https://www.immersivecities.org/' + router.asPath,
-                    title: 'Immersive Cities / Artist: ' + artist.firstName,
+                    title:
+                        'Immersive Cities / Artist: ' +
+                        artist.firstName +
+                        ' ' +
+                        artist.lastName,
                     description: currentTrans.bio,
                     siteName: 'Immersive Cities',
                     images: [
