@@ -26,11 +26,11 @@ function App({ Component, pageProps }) {
             <DefaultSeo
                 title="Immersive Cities"
                 description="Soundscapes for Language Learners"
-                canonical="https://immersivecities.org/"
+                canonical="https://www.immersivecities.org/"
                 openGraph={{
                     type: 'profile',
                     locale: 'en_IE',
-                    url: 'https://immersivecities.org/',
+                    url: 'https://www.immersivecities.org/',
                     site_name: 'Immersive Cities',
                     description: 'Soundscapes for Language Learners',
                     images: [
