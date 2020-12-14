@@ -38,13 +38,9 @@ function App({ Component, pageProps }) {
                     images: [
                         {
                             url: require('../public/social.png'),
-                            alt: 'Giuliano Mozzillo'
+                            alt: 'Immersive Cities'
                         }
                     ]
-                }}
-                twitter={{
-                    site: '@Mozzillation',
-                    cardType: 'summary_large_image'
                 }}
             />
             <Head>
