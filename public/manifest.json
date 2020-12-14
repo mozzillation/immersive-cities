@@ -5,8 +5,8 @@
     "background_color": "#803af3",
     "display": "minimal-ui",
     "orientation": "portrait",
-    "scope": "https://immersivecities.org/",
-    "start_url": "https://immersivecities.org/",
+    "scope": "https://www.immersivecities.org/",
+    "start_url": "https://www.immersivecities.org/",
     "icons": [
         {
             "src": "icons/icon-72x72.png",
