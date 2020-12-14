@@ -51,5 +51,5 @@ export async function getStaticProps() {
 
 Home.propTypes = {
     cities: PropTypes.array,
-    letter: PropTypes.array
+    letter: PropTypes.object
 }

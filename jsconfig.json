@@ -17,7 +17,7 @@
             "@api": ["pages/api/index.js"],
             "@styles/*": ["styles/*"],
             "@component/*": ["components/*"],
-            "@utils": ["utils/index.jsx"]
+            "@utils": ["utils/index.js"]
         },
         "rootDir": ".",
         "baseUrl": ".",

@@ -48,7 +48,7 @@
         ],
         "eqeqeq": ["error"],
         "camelcase": [
-            "error",
+            "warn",
             {
                 "properties": "always"
             }

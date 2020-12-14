@@ -2,15 +2,61 @@ import PropTypes from 'prop-types'
 import '@styles/globals.sass'
 import Layout from '@component/layout'
 import { useRouter } from 'next/router'
+import { DefaultSeo } from 'next-seo'
+import { useEffect } from 'react'
+import Head from 'next/head'
+import * as gtag from '@utils'
 
 function App({ Component, pageProps }) {
     const router = useRouter()
     const { locale, locales, asPath } = router
 
+    useEffect(() => {
+        const handleRouteChange = (url) => {
+            gtag.pageview(url)
+        }
+        router.events.on('routeChangeComplete', handleRouteChange)
+        return () => {
+            router.events.off('routeChangeComplete', handleRouteChange)
+        }
+    }, [router.events])
+
     return (
-        <Layout current={locale} all={locales} path={asPath}>
-            <Component {...pageProps} />
-        </Layout>
+        <>
+            <DefaultSeo
+                title="Immersive Cities"
+                description="Soundscapes for Language Learners"
+                canonical="https://immersivecities.org/"
+                openGraph={{
+                    type: 'profile',
+                    locale: 'en_IE',
+                    url: 'https://immersivecities.org/',
+                    site_name: 'Immersive Cities',
+                    description: 'Soundscapes for Language Learners',
+                    images: [
+                        {
+                            url: require('../public/social.png'),
+                            alt: 'Giuliano Mozzillo'
+                        }
+                    ]
+                }}
+                twitter={{
+                    site: '@Mozzillation',
+                    cardType: 'summary_large_image'
+                }}
+            />
+            <Head>
+                <link rel="manifest" href="/manifest.json" />
+                <link
+                    rel="apple-touch-icon"
+                    href="/icons/icon-72x72.png"
+                ></link>
+                <meta name="theme-color" content="#803af3" />
+            </Head>
+            <Layout current={locale} all={locales} path={asPath}>
+                <Component {...pageProps} />
+            </Layout>
+        </>
     )
 }
 

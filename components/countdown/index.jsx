@@ -35,7 +35,6 @@ export default function Countdown({ letter, setVisible }) {
     const router = useRouter()
     const { locale } = router
     const currentTrans = getKeyByValue(letter, locale)
-    console.log(currentTrans)
 
     return (
         <motion.div className={styles.Countdown}>
