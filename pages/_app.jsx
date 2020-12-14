@@ -11,6 +11,8 @@ function App({ Component, pageProps }) {
     const router = useRouter()
     const { locale, locales, asPath } = router
 
+    console.log(router)
+
     useEffect(() => {
         const handleRouteChange = (url) => {
             gtag.pageview(url)
@@ -28,8 +30,8 @@ function App({ Component, pageProps }) {
                 description="Soundscapes for Language Learners"
                 canonical="https://www.immersivecities.org/"
                 openGraph={{
-                    type: 'profile',
-                    locale: 'en_IE',
+                    type: 'website',
+                    locale: 'en_GB',
                     url: 'https://www.immersivecities.org/',
                     site_name: 'Immersive Cities',
                     description: 'Soundscapes for Language Learners',

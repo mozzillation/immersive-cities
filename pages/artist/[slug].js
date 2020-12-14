@@ -4,6 +4,7 @@ import { useRouter } from 'next/router'
 import Head from 'next/head'
 import PropTypes from 'prop-types'
 import styles from './Artist.module.sass'
+import { NextSeo } from 'next-seo'
 
 export default function Artist({ artist }) {
     const router = useRouter()
@@ -13,6 +14,17 @@ export default function Artist({ artist }) {
 
     return (
         <section className={styles.Artist}>
+            <NextSeo
+                title={'Immersive Cities / Artist: ' + artist.firstName}
+                canonical="https://www.immersivecities.org/"
+                openGraph={{
+                    url: 'https://www.immersivecities.org/' + router.asPath,
+                    title: 'Immersive Cities / Artist: ' + artist.firstName,
+                    description: currentTrans.bio,
+                    site_name: 'Immersive Cities'
+                }}
+            />
+
             <Head>
                 <title>
                     Immersive Cities / Artist: {artist.firstName}{' '}

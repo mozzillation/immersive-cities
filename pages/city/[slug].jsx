@@ -8,6 +8,7 @@ import Link from 'next/link'
 import styles from './City.module.sass'
 import { Fragment } from 'react'
 import Markdown from 'markdown-to-jsx'
+import { NextSeo } from 'next-seo'
 
 export default function City({ city }) {
     const router = useRouter()
@@ -22,6 +23,23 @@ export default function City({ city }) {
                     Immersive Cities / {currenTrans.name}: {city.title}
                 </title>
             </Head>
+
+            <NextSeo
+                title={
+                    'Immersive Cities / ' + currenTrans.name + ': ' + city.title
+                }
+                canonical="https://www.immersivecities.org/"
+                openGraph={{
+                    url: 'https://www.immersivecities.org/' + router.asPath,
+                    title:
+                        'Immersive Cities / ' +
+                        currenTrans.name +
+                        ': ' +
+                        city.title,
+                    description: currenTrans.text,
+                    site_name: 'Immersive Cities'
+                }}
+            />
 
             <div
                 className={styles.Header}
