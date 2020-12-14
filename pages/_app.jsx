@@ -33,7 +33,7 @@ function App({ Component, pageProps }) {
                     type: 'website',
                     locale: 'en_GB',
                     url: 'https://www.immersivecities.org/',
-                    site_name: 'Immersive Cities',
+                    siteName: 'Immersive Cities',
                     description: 'Soundscapes for Language Learners',
                     images: [
                         {

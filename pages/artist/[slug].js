@@ -21,7 +21,7 @@ export default function Artist({ artist }) {
                     url: 'https://www.immersivecities.org/' + router.asPath,
                     title: 'Immersive Cities / Artist: ' + artist.firstName,
                     description: currentTrans.bio,
-                    site_name: 'Immersive Cities',
+                    siteName: 'Immersive Cities',
                     images: [
                         {
                             url: require('../../public/artist/' +

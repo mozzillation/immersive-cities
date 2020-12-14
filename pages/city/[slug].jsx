@@ -37,7 +37,7 @@ export default function City({ city }) {
                         ': ' +
                         city.title,
                     description: currenTrans.text,
-                    site_name: 'Immersive Cities'
+                    siteName: 'Immersive Cities'
                 }}
             />
 
