@@ -14,6 +14,14 @@ export const Footer = ({ all, path }) => {
                             </Link>
                         )
                     })}
+
+                    <a
+                        href="https://www.iubenda.com/privacy-policy/14694546"
+                        target="_blank"
+                        rel="noreferrer"
+                    >
+                        Privacy Policy
+                    </a>
                 </div>
             </div>
         </footer>
