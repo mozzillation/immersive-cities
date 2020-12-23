@@ -29,7 +29,7 @@ export const calcWinsize = () => {
     }
 }
 
-export const GA_TRACKING_ID = 'UA-970258-6'
+export const GA_TRACKING_ID = 'G-LWW8RSGJ0M'
 
 // https://developers.google.com/analytics/devguides/collection/gtagjs/pages
 export const pageview = (url) => {
