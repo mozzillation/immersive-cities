@@ -1,0 +1,28 @@
+title: Bon, mi vado in bassa San Giacomo, che xe sai più traquillo
+color: '#ff6300'
+x: 1180
+y: 330
+
+it-IT:
+    name: Trieste
+    text: |
+        Questa composizione sonora è costruita su un archivio di registrazioni effettuate nella città di Trieste nell’arco di due settimane, durante il mese di marzo 2021. Trieste è una città di frontiera e in quanto tale da sempre costituisce una mescolanza di paessaggi, lingue e incroci culturali. In questo lavoro, nonostante la complessità della trama cittadina, emerge la leggerezza acustica e vocale della città, sia nelle linee del passaggio disegnato dalle persone nei luoghi isolati - ricchi di messaggi sonori, come nella parte costiera della città - sia nell’immersione all’interno della vita pittoresca di quartiere, tra il marasma del traffico e l’inconfondibile voglia di vivere o “morbin” triestino.
+
+        La composizione nasce come una ricerca del linguaggio della città, attraverso i suoi abitanti, partendo da uno dei rioni più vivaci: San Giacomo. Una mattinata qualunque durante il lockdown mostra un incontro con l’irreprensibile voglia di socializzare degli anziani nei bar del rione, mentre il fondale sonoro rivela il contemporaneo montaggio di un set cinematografico. Tra racconti del passato, risate in amicizia, riferimenti a luoghi cittadini, passando tra la pescheria, il bar e la piazza della chiesa, le voci iniziano a trasmettere una dimensione al di fuori da ogni questione sociale e contemporanea: esse sembrano vivere in quel momento per poi svanire tra i rumori del traffico, mentre a un ascolto più profondo le descrizioni e problematiche della vita contemporanea non possono passare inosservate. Subentra, a singhiozzo, un riferimento alla parte costiera della città, con il suono dello sbattere degli alberi maestri delle barche ancorate sul molo del porto di Grignano, che scandiscono il ritmo del moto marino e trasmettono ciò che si ascolta di Trieste ai suoi margini, prima che la civiltà si inabisssi nell’Adriatico, come accade nella zona costiera che incontra il fiume Timavo.
+
+        Appare quindi la sonorità marina, attraverso le onde che bagnano la riva della zona costiera chiamata Filtri, in cui sono collocati filtri e pompe che depurano e spingono l’acqua verso le abitazioni dell’altopiano Carsico. Tra gli spazi sonori ai margini della città, sul Carso, fanno la loro comparsa le grotte e il ticchettio delle gocce dalle stalattiti. A volte, seguendo gli spostamenti degli abitanti, ci si ritrova nuovamente nel brusio urbano e con esso, le voci diventano parte integrante dell’archittetura, come accade sotto i portici del Municipio di Piazza Unità d’Italia e nella piazza stessa, al mercato ortofrutticolo della città vecchia o all’interno della libreria di libri usati italiani, sloveni, tedeschi ed inglesi. Attraverso le vie del borgo, si sale per poi raggiungere nuovamente il carnevale di urla e sentimenti rionali. Bisbiglia in sottofondo il Carso, con la sua sfacciata serenità, al di sopra di ogni parlato. Bisbiglia anche la fontana del castello di Miramare, mentre silenzia ogni rumore di fondo del traffico. A Trieste non ci si esprime a bassa voce ma si avverte forte e chiaro, con tono maestoso, il vociare dei suoi abitanti.
+
+en-GB:
+    name: Trieste
+    text: |
+        eng
+
+audio:
+    - chapter: 'Audio'
+      audio:
+          - name: 'Traccia 01'
+            url: 'https://cdn.mzz.design/immersivecities/trieste/01.mp3'
+
+authors:
+    - name: Roberta Busechian
+      link: /artist/roberta-busechian

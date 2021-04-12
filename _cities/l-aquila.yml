@@ -1,0 +1,35 @@
+title: I suoni dei 99
+color: '#40bbc8'
+x: 1137
+y: 950
+
+it-IT:
+    name: L'Aquila
+    text: |
+        Il 99 è il numero identificativo della città dell’Aquila. 99 come i castelli che nel XIII secolo fondarono la città, creando 99 chiese, 99 piazze e 99 fontane. In realtà i castelli erano circa 60, tuttavia, il numero è rimasto nella tradizione a tal punto che, a ricordo della fondazione, la campana della Torre Civica della città, fino al sisma del 2009, batteva ancora 99 rintocchi e il monumento più antico è la Fontana delle 99 Cannelle.
+
+        Il nome “L’Aquila” è stato scelto proprio per la forte presenza d’acqua (da “aquola” diminutivo latino della parola acqua) e in assonanza con il rapace simbolo delle insegne imperiali. Nel corso dei secoli la città ha vissuto tragici terremoti di cui i monumenti mostrano ancora la traccia, ma che le hanno trasferito un carattere acustico unico fatto sia di suoni astratti presenti nel ricordo di chi ha vissuto il paesaggio sonoro della città prima del terremoto, che da suoni concreti nuovi o rinnovati che trovano nella percezione umana una capacità di ascolto ancora più elevata grazie ad una soglia di sensibilità fortemente aumentata dopo gli importanti eventi naturali.
+
+        Eventi che hanno dato una triplice valenza al rapporto con la natura : tra gli spazi ritrovati e rinnovati; nel rispetto per l'ambiente e per la fonte di ispirazione e creatività.
+
+        L’Aquila è capoluogo d’Abruzzo, la regione più verde d’Europa. La storia moderna ha dato recentemente alla città dallo skyline di gru anche la “carica” di città cantiere più grande d’Europa. I cantieri ricostruiscono le colonne della città e fungono anche da colonna sonora, tonica di tutte le altre sonorità. L'Aquila è una città che si riprende piano piano le voci di chi la abita e le dedica una fiducia rinnovata, tra i suoni dell’acqua, quelli dei lavori per la ricostruzione, i suoni della natura con il canto degli uccelli.
+
+        Una città che però si svuota facilmente in cui diventano protagonisti i rumori delle automobili che sfrecciano anche nel fulcro del centro storico o il vento che mette in vibrazione piccoli oggetti fino a farli sembrare enormi, tetri e risuonanti nella grandezza di una piazza vuota. Il suono onnipresente è quello delle campane, a celebrare la vita, un suono importante per la storia passata e presente della città.
+        Dalle campane della Torre Civica che battevano 99 rintocchi per celebrare la fondazione della città alle campane della Chiesa delle Anime Sante, in Piazza Duomo che la notte del 6 aprile celebrano con 309 rintocchi la memoria delle vittime del terremoto. Il racconto termina nel luogo più antico, Le 99 cannelle che, dopo l'ascolto, sembrerà anch'esso abitato da piccole operaie dedite alla ricostruzione in un fluire interno in cui tutto sembra ritornare al proprio posto, facilmente.
+
+        “La musica è i suoni, i suoni che ci circondano, ci si trovi o meno in una sala da concerto...” — John Cage
+
+en-GB:
+    name: L'Aquila
+    text: |
+        eng
+
+audio:
+    - chapter: 'Audio'
+      audio:
+          - name: 'Traccia 01'
+            url: 'https://cdn.mzz.design/immersivecities/l-aquila/01.mp3'
+
+authors:
+    - name: Flavia Massimo
+      link: /artist/flavia-massimo

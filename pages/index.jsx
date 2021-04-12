@@ -25,17 +25,14 @@ export default function Home({ cities, letter }) {
                 <title>Immersive Cities</title>
             </Head>
 
-            {!isVisible ? (
-                <Countdown letter={letter} setVisible={setVisible} />
-            ) : (
-                <>
-                    {isMobile ? (
-                        <List cities={cities} />
-                    ) : (
-                        <Space cities={cities} locale={locale} />
-                    )}
-                </>
-            )}
+
+
+              {isMobile ? (
+                  <List cities={cities} />
+              ) : (
+                  <Space cities={cities} locale={locale} />
+              )}
+          
         </div>
     )
 }
