@@ -3,6 +3,7 @@ import 'plyr-react/dist/plyr.css'
 import { useRef } from 'react'
 import styles from './Audio.module.sass'
 import PropTypes from 'prop-types'
+import Markdown from 'markdown-to-jsx'
 
 export default function Audio({ title, src }) {
     const audioRef = useRef()
@@ -27,7 +28,7 @@ export default function Audio({ title, src }) {
     return (
         <div className={styles.Audio}>
             <div className={styles.Filename}>
-                <span>{title}</span>
+                <Markdown>{title}</Markdown>
             </div>
             <div className={styles.Wrapper}>
                 <Plyr source={source} ref={audioRef} options={options} />

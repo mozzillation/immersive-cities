@@ -8,13 +8,13 @@
   justify-content: center
   background-color: $white
   border: 1px solid $black
-
-  +mq(mobile)
-    flex-direction: column
+  flex-direction: column
+  overflow: hidden
 
 .Filename
   padding: $margin-smaller $margin-small
-  white-space: nowrap
+  width: 100%
+  background-color: $light-grey
 
   +mq(mobile)
     white-space: normal

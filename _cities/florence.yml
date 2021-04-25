@@ -1,0 +1,56 @@
+title: Zigzagando. Da un lato all’altro dell’Arno
+color: '#8da2bc'
+x: 866
+y: 711
+
+it-IT:
+    name: Firenze
+    text: |
+        Firenze non è la città dove sono nata, non è nemmeno una città dove ho vissuto, tra le molte città in cui ho vissuto. Ma è una città che conosco bene, che frequento da più di vent’anni, che amo e detesto con uguale passione.  Non vado a Firenze dall’agosto del 2020. Me la immagino, quasi senza turisti, nei primi giorni della primavera del 2021, seconda primavera da quando il COVID ha fatto irruzione nelle nostre vite e nelle nostre città.
+
+        Nel preparare la mia partecipazione ad Immersive Cities, ho goduto fino all’ultimo secondo di queste registrazioni effettuate nel marzo di quest’anno nei quartieri sulle due rive dell’Arno. Oltrarno al mattino: San Frediano, i litigi in Piazza Tasso, Santo Spirito con il mercato. Al pomeriggio la Firenze che tutti conoscono, sull’altra riva: il centro storico raggiunto da Ponte Santa Trinita, Piazza della Signoria, le campane del Duomo, la Loggia del Porcellino fino alla casa natale di Dante, a 700 anni dalla sua morte.
+
+        E poi da lì a Santa Croce, passando per Sant’Ambrogio e il mercato, e tutta una camminata fino alla stazione per riprendere il treno in una Santa Maria Novella, come la ricordo io, sempre troppo affollata in una città sempre troppo calda, troppo trafficata, troppo famosa.
+        Nel mio rapporto con il paesaggio sonoro, prediligo i suoni ‘piccoli’, ben definiti, che ci raccontano chi sono e cosa fanno prima di venire riassorbiti dal rumore di fondo. Nel preparare e organizzare questo materiale mi sono lasciata intrigare dalle storie delle voci che popolano la Firenze dell’era COVID, una Firenze dove voci timide di turisti si perdono nell’accento fiorentino solo raramente inframezzato da voci di altre parti d’Italia, da una riva all’altra dell’Arno.
+
+        Registrazioni realizzate con l'assistenza di Marco Galardi.
+
+en-GB:
+    name: Florence
+    text: |
+      Firenze is not the city where I was born, nor is it the city where I have lived, of the numerous cities I have lived in. But it is a city the I know well, where I have hung out for more than twenty years, that I love and I hate with equal passion. I haven’t been to Firenze since August, 2020. I imagine it, practically tourist-free, in the early days of Spring 2021, the second spring since COVID erupted into our lives and into our cities.
+
+      While I prepared my piece for Immersive Cities, I enjoyed every last second of these recordings, made in March this year in the quartieri across the two sides of the Arno river. Oltrarno in the morning: San Frediano, the arguments in Piazza Tasso, Santo Spirito with its market. In the afternoon the Firenze we all know, on the other bank: the historical centre from Ponte Santa Trinita, Piazza della Signoria, the bells of the Duomo, the Loggia del Porcellino up to the birthplace of Dante, 700 years after his death.
+
+      And from there to Santa Croce, via Sant’Ambrogio and the market, and the walk down to the station to catch the train from Santa Maria Novella, just the way I remember it, ever too crowded in a city which is too hot, too busy, too famous.
+      In my relationship with the sound scape I prefer “small” sounds, well defined, which tell us about who they are and what they do before they are sucked back into the background noises. As I prepared and organised this material I let myself be intrigued by the stories of the voices which populate Firenze in the COVID era, a Firenze where shy tourist voices are lost to the Florentine accent, which is only occasionally interspersed with voices from other parts of Italy, from one side to the other of the Arno.
+
+      Recordings made with the assistance of Marco Galardi.
+
+
+audio:
+  - chapter: 'Oltrarno'
+    audio:
+        - name: 01. Piazza Tasso, S. Frediano. *Non capisci niente.*
+          url: 'https://cdn.mzz.design/immersivecities/florence/01.mp3'
+        - name: 02. Piazza Santo Spirito. *Pettegolezzi al mercato.*
+          url: 'https://cdn.mzz.design/immersivecities/florence/02.mp3'
+  - chapter: 'Centro Storico'
+    audio:
+        - name: 03. Loggia del Porcellino. *Tourists are gone, birds are back.*
+          url: 'https://cdn.mzz.design/immersivecities/florence/03.mp3'
+        - name: "04. Casa di Dante. *In quella parte del libro de la mia memoria, dinanzi a la quale poco si potrebbe leggere, si trova una rubrica la quale dice: Incipit vita nova.*"
+          url: 'https://cdn.mzz.design/immersivecities/florence/04.mp3'
+        - name: 05. Santa Maria del Fiore. *Mezzogiorno, l’ora vuota del pranzo in cui si mischiano gli accenti.*
+          url: 'https://cdn.mzz.design/immersivecities/florence/05.mp3'
+        - name: 06. Mercato di Sant’Ambrogio. *Di voci, bici, parole straniere.*
+          url: 'https://cdn.mzz.design/immersivecities/florence/06.mp3'
+
+  - chapter: 'Ripartenze'
+    audio:
+        - name: 07. Da Piazza Santa Croce alla Stazione Santa Maria Novella, a piedi e senza sosta.
+          url: 'https://cdn.mzz.design/immersivecities/florence/07.mp3'
+
+authors:
+    - name: Sara Lenzi
+      link: /artist/sara-lenzi
