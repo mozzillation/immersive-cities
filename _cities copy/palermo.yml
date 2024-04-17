@@ -1,0 +1,37 @@
+title: Palermo, 2020
+color: '#ffd800'
+x: 1102
+y: 1693
+
+it-IT:
+    name: Palermo
+    text: |
+        “Palermo” è un montaggio di paesaggi sonori registrati durante una passeggiata sonora divisa in due tappe: la prima, dall’inizio del mercato di Ballarò al Foro Italico (incrociando Corso Vittorio Emanuele, i Quattro Canti, la Cala). La seconda parte, invece, è stata catturata a Monte Pellegrino, luogo del Santuario dedicato a Santa Rosalia, patrona della città.
+
+        Le registrazioni sono caratterizzate dalla commistione di voci, musiche e dalle tipiche urla dei venditori dei mercati popolari per attirare i clienti ed ereditate dai “suq” arabi e nord-africani: le “abbanniate”. Queste sono state registrate al mercato di Ballarò, dove a poco a poco che ci allontaniamo dal centro pulsante, si diradano nelle stradine del centro storico più interno che, essendo domenica mattina, risulta essere particolarmente silenzioso.
+
+        Passando da Piazza Bologni, si giunge in Corso Vittorio Emanuele, uno dei due assi su cui si è sviluppata l’antica città, e si prosegue verso la Cattedrale, dove ci si ferma qualche minuto ad ascoltare l’incalzante dialogo tra due bengalesi, una delle comunità più numerose di Palermo.
+
+        La passeggiata sonora ci porta a Piazza Villena, conosciuta come “Quattro Canti”, dove, accanto ad una delle fontane, due cocchieri si lamentano, a causa del Covid-19, del nuovo modo di frequentare le taverne.
+
+        Verso il mare, Corso Vittorio Emanuele si apre sul porticciolo della Cala, luogo di approdo scelto dai Fenici più di 2500 anni fa e dove sfociano ancora oggi i due fiumi di Palermo: il Kemonia ed il Papireto. Qui, una piattaforma di legno percossa dai passi dei corridori caratterizza il suono del porto che si fonde con il chiacchiericcio della gente. Via via che lasciamo la Cala si fa sempre più presente la confusione del Foro Italico, giardino sul mare, popolato da famiglie con bambini, runners e giovani che giocano sul grande prato, dove si può notare la differenza tra il dialetto locale e la lingua italiana.
+
+        L’ultima breve parte è una registrazione che ci porta a Monte Pellegrino dove sorge il Santuario di Santa Rosalia, luogo sacro per palermitani e fedeli provenienti da altre parti del mondo e da altre culture. A causa del Covid-19, il Santuario è vuoto e si percepisce un riverbero intimo che accoglie i dialoghi sussurrati dei visitatori: tra questi un uomo che racconta del suo matrimonio avvenuto lì anni prima ed un bambino che chiede delle monetine da offrire alla Santa.
+
+en-GB:
+    name: Palermo
+    text: |
+        Palermo is a montage of soundscapes which were recorded in Palermo during a sonorous passeggiata in two stages: the first is from the start of the Ballarò market until the Foro Italico (hence, crossing Corso Vittorio Emanuele, the Quattro Canti, the Cala); the second was recorded at Monte Pellegrino, place of the Sanctuary dedicated to Santa Rosalia, the patron saint of the city.
+        Each recording holds a mixture of voices, music and “abbanniate” - the classic shouting of market vendors - which gradually fade away as we move towards the laneways of the historical town centre which, as it’s Sunday morning, is particularly quiet. Continuing onwards to Corso Vittorio Emanuele, backwards and forwards, first towards the Cathedral, where we stop for a moment in a shop selling Tunisian products and then towards the sea until we reach the Cala. Here we come across, in the Quattro Canti, next to one of the fountains, the dialogue of driver who is whinging about the way people now visit taverns since Covid-19 restrictions have been introduced.
+        In the small port of Palermo you can classic wooden platform as it creaks under the steps of the runners and then little by little the sounds of confusion filter in from foro italico, filled with families with children. If you listen carefully you can notice the difference in the accents between the common Palermo accent and the radical chic movement.
+        The last part is a short recording at the Sanctuary of Santa Rosalia. A young boy asks for some coins to offer to the Saint. The Sanctuary is empty and there are no chairs as a result of the Covid legislation. And so you can hear an intimate echo which embraces the whispered conversations of the visitors, including a gentlemen who recounts the story of his wedding held there a few years earlier.
+
+audio:
+    - chapter: 'Audio'
+      audio:
+          - name: 'Palermo - Domenica 08-11-2020 09.00 AM'
+            url: 'https://cdn.mzz.design/immersivecities/palermo/01.mp3'
+
+authors:
+    - name: Vacuamoenia
+      link: /artist/vacuamoenia

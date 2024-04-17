@@ -1,8 +1,6 @@
 const withOptimizedImages = require('next-optimized-images')
 
-module.exports = withOptimizedImages({
-    optimizeImagesInDev: true,
-    target: 'serverless',
+module.exports = {
     i18n: {
         locales: ['en-GB', 'it-IT'],
         defaultLocale: 'en-GB'
@@ -15,4 +13,4 @@ module.exports = withOptimizedImages({
 
         return config
     }
-})
+}

@@ -37,7 +37,7 @@ function App({ Component, pageProps }) {
                     description: 'Soundscapes for Language Learners',
                     images: [
                         {
-                            url: require('../public/social.png'),
+                            url: '/social.png',
                             alt: 'Immersive Cities'
                         }
                     ]

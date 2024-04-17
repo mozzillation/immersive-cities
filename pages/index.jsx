@@ -5,19 +5,13 @@ import PropTypes from 'prop-types'
 import { getAllCities, getMore } from '@api'
 import { useDeviceDetect } from '@utils'
 import { useRouter } from 'next/router'
-import Countdown from '@component/countdown'
-import React, { useState } from 'react'
+import React from 'react'
 
-export default function Home({ cities, letter }) {
+export default function Home({ cities }) {
     const { isMobile } = useDeviceDetect()
-    const [isVisible, setIsVisible] = useState(false)
 
     const router = useRouter()
     const { locale } = router
-
-    function setVisible() {
-        setIsVisible(true)
-    }
 
     return (
         <div>
@@ -25,14 +19,11 @@ export default function Home({ cities, letter }) {
                 <title>Immersive Cities</title>
             </Head>
 
-
-
-              {isMobile ? (
-                  <List cities={cities} />
-              ) : (
-                  <Space cities={cities} locale={locale} />
-              )}
-          
+            {isMobile ? (
+                <List cities={cities} />
+            ) : (
+                <Space cities={cities} locale={locale} />
+            )}
         </div>
     )
 }
@@ -40,13 +31,11 @@ export default function Home({ cities, letter }) {
 export async function getStaticProps() {
     return {
         props: {
-            cities: await getAllCities(),
-            letter: await getMore('letter')
+            cities: await getAllCities()
         }
     }
 }
 
 Home.propTypes = {
-    cities: PropTypes.array,
-    letter: PropTypes.object
+    cities: PropTypes.array
 }

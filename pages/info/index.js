@@ -42,8 +42,12 @@ export default function InfoPage({ info, artists }) {
                                             artist.lastName
                                         }
                                         loading="lazy"
-                                        layout="fill"
-                                        objectFit="cover"
+                                        width={1080}
+                                        height={1080}
+                                        style={{
+                                            position: 'absolute',
+                                            objectFit: 'cover'
+                                        }}
                                     />
                                 </div>
                                 <div className={styles.CardTitle}>
@@ -60,8 +64,12 @@ export default function InfoPage({ info, artists }) {
                                     src={'/artist/leandro-pisano.jpg'}
                                     alt={'Leandro Pisano'}
                                     loading="lazy"
-                                    layout="fill"
-                                    objectFit="cover"
+                                    width={1080}
+                                    height={1080}
+                                      style={{
+                                            position: 'absolute',
+                                            objectFit: 'cover'
+                                        }}
                                 />
                             </div>
                             <div className={styles.CardTitle}>

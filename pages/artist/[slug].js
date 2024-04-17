@@ -5,6 +5,7 @@ import Head from 'next/head'
 import PropTypes from 'prop-types'
 import styles from './Artist.module.sass'
 import { NextSeo } from 'next-seo'
+import Image from 'next/image'
 
 export default function Artist({ artist }) {
     const router = useRouter()

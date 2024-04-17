@@ -1,5 +1,5 @@
 import Plyr from 'plyr-react'
-import 'plyr-react/dist/plyr.css'
+import "plyr-react/plyr.css"
 import { useRef } from 'react'
 import styles from './Audio.module.sass'
 import PropTypes from 'prop-types'

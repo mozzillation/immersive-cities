@@ -1,0 +1,32 @@
+title: Forum
+color: '#eeb67d'
+x: 1026
+y: 1024
+
+it-IT:
+    name: Roma
+    text: |
+        Si tratta di un lavoro sonoro realizzato con materiale raccolto in alcuni caratteristici mercati di Roma, tra febbraio e marzo 2021. Non è facile, in piena pandemia, raccontare le storie di una città attraverso il suono, dal momento che il paesaggio sonoro che per decenni l’ha caratterizzata non esiste più. Il paesaggio sonoro plasmato dalla pandemia contiene certamente spunti interessanti e irripetibili, ma solo quando le atmosfere sonore della città ora sopite torneranno, vorrà dire che si sarà tornati in qualche modo a un’attesa normalità o a una ‘nuova’ normalità.
+
+        In questo contesto, i mercati diventano i luoghi forse più resilienti dal punto di vista sonoro, nonostante tutte le limitazioni imposte: essi conservano in questo modo quella funzione nata con l’istituzione romana del Foro, cioè la piazza "publica" che era il centro di tutti gli affari pubblici e privati.
+
+        Munito di registratore digitale e microfoni binaurali, ho attraversato in ordine sparso il mercato di via Sannio (mercato storico dedicato all'abbigliamento, agli accessori, al vintage), il mercato rionale dell’Alberone, il nuovo mercato coperto di Piazza Testaccio e il caratteristico multietnico nuovo mercato Esquilino, catturandone i suoni e le conversazioni. La tecnica di registrazione utilizzata conserva tutte le caratteristiche tridimensionali del suono, per cui è vivamente consigliato l’ascolto con cuffie o auricolari.
+
+en-GB:
+    name: Rome
+    text: |
+        This soundscape was created with material recorded in a number of characteristic markets of Rome, between February and March 2021. It is not easy, in the heart of a pandemic, to tell the stories of a city through sound, given that the soundscapes that have characterized it no longer exist. The sound scape shaped by the pandemic holds certain interesting and unrepeatable ideas, but only once the sonorous atmospheres of the sleep city return, will it mean that we will have returned to, in some way, a hoped-for normality or a “new” normality.
+
+        In this context, the markets have perhaps become the most resilient from the point of view of sound, despite the limits imposed by them: they hold in this way the function born through Roman institution of the Forum, that is the “public” place that was at the centre of public and private affairs.
+
+        Holding a digital recorder and binaural microphones, I wandered through the Market of via Sannio (long-standing market dedicated to clothing, accessories, vintage objects), the local market of Alberone, the new covered market in Piazza Testaccio and the characteristic multiethnic market at the Esquilino, capturing the sounds and conversations. The recording technique used holds the three-dimensional characteristics of sound, hence I strongly recommend you listen with headphones.
+
+audio:
+    - chapter: 'Audio'
+      audio:
+          - name: 'Traccia 01'
+            url: 'https://cdn.mzz.design/immersivecities/rome/01.mp3'
+
+authors:
+    - name: Raffaele Mariconte
+      link: /artist/raffaele-mariconte

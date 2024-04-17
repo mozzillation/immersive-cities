@@ -1,19 +1,30 @@
 export async function getAllCities() {
-    const context = require.context('../../_cities', false, /\.yml$/)
+    const context = require.context('../../_cities/', true, /\.yml$/)
+
     const posts = []
     for (const key of context.keys()) {
-        const post = key.slice(2)
-        const content = await import(`../../_cities/${post}`)
-        posts.push({
-            slug: post.replace('.yml', ''),
-            title: content.title,
-            color: content.color,
-            x: content.x,
-            y: content.y,
-            'it-IT': content['it-IT'],
-            'en-GB': content['en-GB']
-        })
+
+        if (!key.includes('cities')) {
+
+            const post = key.slice(2)
+
+        
+            const content = await import(`../../_cities/${post}`)
+
+            console.log(content.x, content.y)
+
+            posts.push({
+                slug: post.replace('.yml', ''),
+                title: content.title,
+                color: content.color,
+                x: content.x,
+                y: content.y,
+                'it-IT': content['it-IT'],
+                'en-GB': content['en-GB']
+            })
+        }
     }
+
     return posts
 }
 
@@ -33,15 +44,19 @@ export async function getCityBySlug(slug) {
 export async function getAllArtists() {
     const context = require.context('../../_artists', false, /\.yml$/)
     const posts = []
+
+    
     for (const key of context.keys()) {
-        const post = key.slice(2)
-        const content = await import(`../../_artists/${post}`)
-        posts.push({
-            slug: post.replace('.yml', ''),
-            firstName: content.firstName,
-            lastName: content.lastName,
-            portrait: content.portrait
-        })
+            if (!key.includes('artists')) {
+            const post = key.slice(2)
+            const content = await import(`../../_artists/${post}`)
+            posts.push({
+                slug: post.replace('.yml', ''),
+                firstName: content.firstName,
+                lastName: content.lastName,
+                portrait: content.portrait
+            })
+        }
     }
     return posts
 }

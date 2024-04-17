@@ -1,0 +1,73 @@
+title: Antiche stanze
+color: '#ff725c'
+x: 1217
+y: 1225
+
+it-IT:
+    name: Napoli
+    text: |
+        Produrre del materiale sonoro per raccontare la mia città in tempo di Covid mi sembrava una cosa impossibile.
+        Napoli è una città fatta di moltitudini che s’incontrano, assembramenti che producono un tessuto sonoro sempre denso, una città dove il silenzio è rarissimo e dove le voci di chi passeggia si fondono con i canti dei venditori, le grida gioiose dei bambini che si rincorrono giocando, i motorini che sfrecciano e le signore che, nonostante il telefono esista da un secolo, continuano a chiamarsi e a dialogare affacciate alle finestre delle proprie abitazioni.
+        Poi ho iniziato a ragionare su chi avrebbe ascoltato il lavoro ed ho immaginato che chi ha studiato una lingua straniera, quando visita il paese in cui questa viene parlata, molto probabilmente ascolta in modo diverso da un “semplice” viaggiatore; il suo udito selettivo lo porterà ad andare oltre il paesaggio sonoro, per focalizzarsi sui dettagli, bramoso di conoscere cose che non si studiano nei libri, non si vedono nei film ma si assorbono praticando e vivendo i luoghi: consuetudini, segreti, e contraddizioni. Oltre al suono, in questo lavoro ci voleva la parola, anch'essa suono del resto, ma un suono che trasporta conoscenza, ricordi, consapevolezza, intimità, paure. Del resto, la mia ricerca artistica sul suono da tempo si è focalizzata sulle parole, che sono stanze dove gli antenati dialogano coi vivi, luoghi attraverso i quali vengono trasmessi saperi e tradizioni che nessun'altra forma di comunicazione riesce a preservare. Ed è così che vorrei fosse fruito il mio lavoro: come un viaggio, ma non virtuale, un viaggio fatto attraverso il sogno, un viaggio durante il quale si entra nelle case di persone che raccontandoti storie ti rendono testimone e custode di una memoria collettiva che rischia di perdersi in una società sempre più veloce e distratta e sempre più incapace di nutrire le proprie radici e farsi nutrire da esse.
+
+en-GB:
+    name: Naples
+    text: |
+        I was convinced that producing sound material which could tell the story of my city during a pandemic was impossible.
+        Napoli is a city made up of a masses meeting, assemblies which always produce a dense sound material, a city where silence is rare and where the voices of those who wander fuse with the sing-song voices of vendors, the joyful shouting of children who chase each other playfully, scooters that zoom along and the ladies who, even though the telephone has been around for a century, continue to call out to and dialogue with each other through the open windows of their homes.
+        Then I began to think about the people who would listen to my work and I imagined that students of a foreign language, when visiting the country where it is spoken, most probably listen in a different way to a “simple” traveller; his or her selective hearing will lead them to go beyond the soundscape, to focus on the details, anxious to know about details that you can’t find in textbooks, that you can’t see in the films but that you absorb by practicing and living the cities: everyday happenings, secrets and contradictions. More than just sound, this piece of work needed words, which is a sound too of course but a sound that carries knowledge, memories, consciousness, intimacy, fears. Afterall, my artistic research into sound has been focused on words for a while, which are words where our ancestors dialogue with the living, places where knowledge and traditions are passed on in a way that no other form of communication can achieve. And that is how I wish for my work to be used: like a journey, but not a virtual one, a journey through dreams, a journey where you can enter into other peoples homes which turn you into a witness and safekeeper of a collective memory which risks getting lost in a society which keeps moving faster and becoming more distracted, losing the ability to nourish their roots and be nourished by them.
+
+audio:
+    - chapter: 'La Cucina'
+      audio:
+          - name: 'La Tempure'
+            url: 'https://cdn.mzz.design/immersivecities/naples/La%20cucina/La%20Tempure.mp3'
+          - name: "La finta pizzaiola e l'uosemo"
+            url: 'https://cdn.mzz.design/immersivecities/naples/La%20cucina/La%20finta%20pizzaiola%20e%20l%27%20uosemo.mp3'
+
+    - chapter: 'La Lingua'
+      audio:
+          - name: 'Dio e creanza'
+            url: 'https://cdn.mzz.design/immersivecities/naples/La%20lingua/Dio%20e%20creanza.mp3'
+          - name: 'Il caffè sospeso'
+            url: 'https://cdn.mzz.design/immersivecities/naples/La%20lingua/Il%20caffe%CC%80%20sospeso.mp3'
+          - name: 'O Sole Mio'
+            url: 'https://cdn.mzz.design/immersivecities/naples/La%20lingua/O%20sole%20mio.mp3'
+          - name: 'Peculiarità del napoletano'
+            url: 'https://cdn.mzz.design/immersivecities/naples/La%20lingua/Peculiarita%CC%80%20del%20napoletano.mp3'
+          - name: 'Priezza'
+            url: 'https://cdn.mzz.design/immersivecities/naples/La%20lingua/Priezza.mp3'
+
+    - chapter: 'La Musica'
+      audio:
+          - name: "'A Tazza 'e Caffè"
+            url: 'https://cdn.mzz.design/immersivecities/naples/La%20musica/%27A%20Tazza%20%27e%20Caffe%CC%80.mp3'
+          - name: 'Ammore Amaro'
+            url: 'https://cdn.mzz.design/immersivecities/naples/La%20musica/Ammore%20Amaro.mp3'
+          - name: 'Canto di protesta 1'
+            url: 'https://cdn.mzz.design/immersivecities/naples/La%20musica/Canto%20di%20protesta%201.mp3'
+          - name: 'Canto di protesta 2'
+            url: 'https://cdn.mzz.design/immersivecities/naples/La%20musica/Canto%20di%20protesta%202.mp3'
+          - name: 'La cantina'
+            url: 'https://cdn.mzz.design/immersivecities/naples/La%20musica/La%20cantina.mp3'
+          - name: 'Nu poco ‘e sentimento'
+            url: 'https://cdn.mzz.design/immersivecities/naples/La%20musica/Nu%20poco%20%E2%80%98e%20sentimento.mp3'
+          - name: 'Vola Cardillo'
+            url: 'https://cdn.mzz.design/immersivecities/naples/La%20musica/Vola%20Cardillo.mp3'
+
+    - chapter: 'La strada'
+      audio:
+          - name: 'La notte prima del lockdown'
+            url: 'https://cdn.mzz.design/immersivecities/naples/La%20strada/La%20notte%20prima%20del%20lockdown.mp3'
+          - name: 'Maradona'
+            url: 'https://cdn.mzz.design/immersivecities/naples/La%20strada/Maradona.mp3'
+          - name: 'Pignasecca'
+            url: 'https://cdn.mzz.design/immersivecities/naples/La%20strada/Pignasecca.mp3'
+          - name: 'Salumiere'
+            url: 'https://cdn.mzz.design/immersivecities/naples/La%20strada/Salumiere.mp3'
+          - name: 'Tina e Angelo, fruttivendoli'
+            url: 'https://cdn.mzz.design/immersivecities/naples/La%20strada/Tina%20e%20Angelo%2C%20fruttivendoli.mp3'
+
+authors:
+    - name: Marco Messina
+      link: /artist/marco-messina
