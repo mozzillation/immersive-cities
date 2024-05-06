@@ -51,14 +51,14 @@ audio:
           - name: 'La cantina'
             url: 'https://cdn.mzz.design/immersivecities/naples/La%20musica/La%20cantina.mp3'
           - name: 'Nu poco ‘e sentimento'
-            url: 'https://cdn.mzz.design/immersivecities/naples/La%20musica/Nu%20poco%20%E2%80%98e%20sentimento.mp3'
+            url: 'https://cdn.mzz.design/immersivecities/naples/La%20musica/Nu%20poco%20e%20sentimento.mp3'
           - name: 'Vola Cardillo'
             url: 'https://cdn.mzz.design/immersivecities/naples/La%20musica/Vola%20Cardillo.mp3'
 
     - chapter: 'La strada'
       audio:
           - name: 'La notte prima del lockdown'
-            url: 'https://cdn.mzz.design/immersivecities/naples/La%20strada/La%20notte%20prima%20del%20lockdown.mp3'
+            url: 'https://cdn.mzz.design/immersivecities/naples/La%20strada/Lockdown.mp3'
           - name: 'Maradona'
             url: 'https://cdn.mzz.design/immersivecities/naples/La%20strada/Maradona.mp3'
           - name: 'Pignasecca'

@@ -1,11 +1,10 @@
-import Head from 'next/head'
-import Space from '@component/space'
+import { getAllCities } from '@api'
 import List from '@component/list'
-import PropTypes from 'prop-types'
-import { getAllCities, getMore } from '@api'
+import Space from '@component/space'
 import { useDeviceDetect } from '@utils'
+import Head from 'next/head'
 import { useRouter } from 'next/router'
-import React from 'react'
+import PropTypes from 'prop-types'
 
 export default function Home({ cities }) {
     const { isMobile } = useDeviceDetect()
@@ -19,11 +18,11 @@ export default function Home({ cities }) {
                 <title>Immersive Cities</title>
             </Head>
 
-            {/* {isMobile ? (
+            {isMobile ? (
                 <List cities={cities} />
-            ) : ( */}
-            <Space cities={cities} locale={locale} />
-            {/* )} */}
+            ) : (
+                <Space cities={cities} locale={locale} />
+            )}
         </div>
     )
 }
