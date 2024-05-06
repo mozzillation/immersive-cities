@@ -1,11 +1,10 @@
-import React, { Component, createRef } from 'react'
+import { calcWinsize, getKeyByValue } from '@utils'
 import { motion } from 'framer-motion'
-import { TransformWrapper, TransformComponent } from 'react-zoom-pan-pinch'
-import { calcWinsize } from '@utils'
-import styles from './Space.module.sass'
 import Link from 'next/link'
-import { getKeyByValue } from '@utils'
 import PropTypes from 'prop-types'
+import { Component, createRef } from 'react'
+import { TransformComponent, TransformWrapper } from 'react-zoom-pan-pinch'
+import styles from './Space.module.sass'
 
 export default class Space extends Component {
     constructor(props) {
@@ -75,6 +74,8 @@ export default class Space extends Component {
 
         const zoomOut = 0.6
 
+        console.log(screenHeight)
+
         if (ready) {
             return (
                 <>
@@ -95,19 +96,17 @@ export default class Space extends Component {
                     <div className={styles.SpaceWrapper}>
                         <TransformWrapper
                             className={styles.Transfomer}
-                            defaultScale={zoomOut}
-                            defaultPositionX={
+                            initialScale={zoomOut}
+                            limitToBounds={false}
+                            minScale={0.1}
+                            centerOnInit={false}
+                            centerZoomedOut={true}
+                            initialPositionX={
                                 -(2000 * zoomOut - screenWidth) / 2
                             }
-                            defaultPositionY={
+                            initialPositionY={
                                 -(2000 * zoomOut - screenHeight) / 2
                             }
-                            options={{
-                                limitToBounds: false,
-                                limitToWrapper: true,
-                                minScale: 0.1,
-                                centerContent: true
-                            }}
                             wheel={{
                                 disabled: false,
                                 step: 100
@@ -118,7 +117,7 @@ export default class Space extends Component {
                             onPanningStart={this.toggleCursor.bind(this)}
                             onPanningStop={this.toggleCursor.bind(this)}
                         >
-                            <TransformComponent>
+                            <TransformComponent centerOnInit={true}>
                                 <div
                                     className={styles.Space}
                                     ref={this.cursorRef}
@@ -192,7 +191,7 @@ export function Pin({
     }
 
     return (
-        <Link href={'city/' + slug}>
+        <Link href={'city/' + slug} passHref>
             <motion.div
                 custom={i}
                 initial="hidden"

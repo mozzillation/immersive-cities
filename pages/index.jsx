@@ -19,11 +19,11 @@ export default function Home({ cities }) {
                 <title>Immersive Cities</title>
             </Head>
 
-            {isMobile ? (
+            {/* {isMobile ? (
                 <List cities={cities} />
-            ) : (
-                <Space cities={cities} locale={locale} />
-            )}
+            ) : ( */}
+            <Space cities={cities} locale={locale} />
+            {/* )} */}
         </div>
     )
 }

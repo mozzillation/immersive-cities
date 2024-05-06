@@ -24,7 +24,7 @@ export function useDeviceDetect() {
 }
 
 export const calcWinsize = () => {
-    if (process.browser) {
+    if (typeof window !== undefined) {
         return { width: window.innerWidth, height: window.innerHeight }
     }
 }

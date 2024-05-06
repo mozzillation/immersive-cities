@@ -11,8 +11,6 @@ function App({ Component, pageProps }) {
     const router = useRouter()
     const { locale, locales, asPath } = router
 
-    console.log(router)
-
     useEffect(() => {
         const handleRouteChange = (url) => {
             gtag.pageview(url)
